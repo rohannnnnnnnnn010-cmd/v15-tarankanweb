@@ -1,0 +1,759 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo1ODhmN2I1Mi1jYTc5LTQ2ZjAtYWE3OS0xZWQwYTM0ZmI4NzcAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaIK4I7GmVSyi60aKoJWZI58AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo2OGMyNzZjYy03MjBiLTQwYjQtYmM5ZS1kOWIxYzRkNDBjODVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoBYHHbv+syrqPCCg7ZVe/OQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggnw838hw66ozKj+cqfoBn59b09QVAB0gw7ixrTWtRrVakZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaJAMUyoymqBqE0IBAvQ+e9YAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCAoaFgxQlxp/syj9T5IfRZf6oqedtXOZXsoRhjK2MkrsmRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjKZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjU4OGY3YjUyLWNhNzktNDZmMC1hYTc5LTFlZDBhMzRmYjg3Ny9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmQ0Zjc4MmZmLTM0MzctNGI2NS1hYzIzLTVkZTdjNzBmNzk2OHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCfDzfyHDrqjMqP5yp+gGfn1vT1BUAHSDDuLGtNa1GtVqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggs4cJRmbVlvGjBuKgT02sq6hLTHcfhRCZZ+YKP4WtkIeiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggqav+NL44FZy5PM1hOQgetYHWFP96YvvTKRnmClfHU2t0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQNyGfwNeguzIBbXYOB0bQqiBGnRREMzDed6immyJJmyOgW33+7aS3tqiQcwmYMq27RJTfSYDrL0bWIYk7Yg34yI=</c2pa:manifest></metadata>
+<title id="title">Tarankan Exim — 10-Step Quality Inspection Journey</title>
+<desc id="desc">A landscape quality journey. The camera travels upward through ten checkpoints while a synchronized arrow reveals the route immediately behind it. The sequence loops seamlessly and continuously.</desc>
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f8f5ef"/><stop offset="1" stop-color="#eee9df"/></linearGradient>
+  <linearGradient id="stage" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e9edee"/><stop offset="1" stop-color="#dde4e5"/></linearGradient>
+  <!-- shading repeats every 2700px (reflect over half-period) so loop start == loop end -->
+  <linearGradient id="routeCore" gradientUnits="userSpaceOnUse" x1="0" y1="3500" x2="0" y2="2150" spreadMethod="reflect"><stop offset="0" stop-color="#7f7a73"/><stop offset="0.55" stop-color="#4f4c46"/><stop offset="1" stop-color="#34322e"/></linearGradient>
+  <linearGradient id="routeHighlight" gradientUnits="userSpaceOnUse" x1="0" y1="3500" x2="0" y2="2150" spreadMethod="reflect"><stop offset="0" stop-color="#ffffff" stop-opacity="0.98"/><stop offset="1" stop-color="#f3efe8" stop-opacity="0.82"/></linearGradient>
+  <filter id="cardShadow" x="-40%" y="-50%" width="180%" height="220%"><feDropShadow dx="0" dy="9" stdDeviation="12" flood-color="#1a1917" flood-opacity="0.16"/></filter>
+  <filter id="softShadow" x="-50%" y="-50%" width="200%" height="220%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#1a1917" flood-opacity="0.12"/></filter>
+  <filter id="arrowGlow" x="-300%" y="-300%" width="600%" height="600%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="viewportClip"><rect x="40" y="82" width="1520" height="736" rx="34"/></clipPath>
+  <style>
+    .kicker{font-family:'DM Sans',Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:2.8px;fill:#7c776e}
+    .meta{font-family:'DM Sans',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:1.9px;fill:#8b857b}
+    .cardTitle{font-family:'DM Sans',Arial,sans-serif;font-size:19px;font-weight:800;fill:#1c1b18}
+    .cardNo{font-family:'DM Sans',Arial,sans-serif;font-size:10.5px;font-weight:800;letter-spacing:1.7px;fill:#4e4a44}
+    .bodyDark{font-family:'DM Sans',Arial,sans-serif;font-size:11.6px;font-weight:500;fill:#69645c}
+    .lineNo{font-family:'DM Sans',Arial,sans-serif;font-size:10.5px;font-weight:800;letter-spacing:1.5px;fill:#ffffff}
+    .emoji{font-family:'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif;font-size:34px}
+
+    /* ONE shared clock: every animation is 30s, linear, infinite, and starts together.
+       Period = 10 steps x 270px = 2700px. Content is periodic, so frame 100% == frame 0%. */
+    .camera{animation:cameraLoop 30s linear infinite}
+    .trail{stroke-dasharray:0.11064 2;animation:routeTrail 30s linear infinite}
+    .travelArrow{transform-origin:0 0;animation:arrowRun 30s linear infinite}
+
+    @keyframes cameraLoop{from{transform:translateY(-2960px)}to{transform:translateY(-260px)}}
+    @keyframes routeTrail{
+      0.000%{stroke-dashoffset:-0.05743}
+      0.417%{stroke-dashoffset:-0.05954}
+      0.833%{stroke-dashoffset:-0.06203}
+      1.250%{stroke-dashoffset:-0.06492}
+      1.667%{stroke-dashoffset:-0.06813}
+      2.083%{stroke-dashoffset:-0.07161}
+      2.500%{stroke-dashoffset:-0.07530}
+      2.917%{stroke-dashoffset:-0.07916}
+      3.333%{stroke-dashoffset:-0.08315}
+      3.750%{stroke-dashoffset:-0.08724}
+      4.167%{stroke-dashoffset:-0.09139}
+      4.583%{stroke-dashoffset:-0.09559}
+      5.000%{stroke-dashoffset:-0.09982}
+      5.417%{stroke-dashoffset:-0.10404}
+      5.833%{stroke-dashoffset:-0.10825}
+      6.250%{stroke-dashoffset:-0.11240}
+      6.667%{stroke-dashoffset:-0.11649}
+      7.083%{stroke-dashoffset:-0.12048}
+      7.500%{stroke-dashoffset:-0.12434}
+      7.917%{stroke-dashoffset:-0.12803}
+      8.333%{stroke-dashoffset:-0.13151}
+      8.750%{stroke-dashoffset:-0.13472}
+      9.167%{stroke-dashoffset:-0.13761}
+      9.583%{stroke-dashoffset:-0.14009}
+      10.000%{stroke-dashoffset:-0.14221}
+      10.417%{stroke-dashoffset:-0.14433}
+      10.833%{stroke-dashoffset:-0.14686}
+      11.250%{stroke-dashoffset:-0.14983}
+      11.667%{stroke-dashoffset:-0.15314}
+      12.083%{stroke-dashoffset:-0.15675}
+      12.500%{stroke-dashoffset:-0.16058}
+      12.917%{stroke-dashoffset:-0.16458}
+      13.333%{stroke-dashoffset:-0.16873}
+      13.750%{stroke-dashoffset:-0.17298}
+      14.167%{stroke-dashoffset:-0.17731}
+      14.583%{stroke-dashoffset:-0.18168}
+      15.000%{stroke-dashoffset:-0.18608}
+      15.417%{stroke-dashoffset:-0.19048}
+      15.833%{stroke-dashoffset:-0.19485}
+      16.250%{stroke-dashoffset:-0.19918}
+      16.667%{stroke-dashoffset:-0.20343}
+      17.083%{stroke-dashoffset:-0.20757}
+      17.500%{stroke-dashoffset:-0.21158}
+      17.917%{stroke-dashoffset:-0.21541}
+      18.333%{stroke-dashoffset:-0.21901}
+      18.750%{stroke-dashoffset:-0.22233}
+      19.167%{stroke-dashoffset:-0.22529}
+      19.583%{stroke-dashoffset:-0.22783}
+      20.000%{stroke-dashoffset:-0.22995}
+      20.417%{stroke-dashoffset:-0.23205}
+      20.833%{stroke-dashoffset:-0.23451}
+      21.250%{stroke-dashoffset:-0.23733}
+      21.667%{stroke-dashoffset:-0.24047}
+      22.083%{stroke-dashoffset:-0.24386}
+      22.500%{stroke-dashoffset:-0.24745}
+      22.917%{stroke-dashoffset:-0.25120}
+      23.333%{stroke-dashoffset:-0.25507}
+      23.750%{stroke-dashoffset:-0.25903}
+      24.167%{stroke-dashoffset:-0.26307}
+      24.583%{stroke-dashoffset:-0.26714}
+      25.000%{stroke-dashoffset:-0.27124}
+      25.417%{stroke-dashoffset:-0.27533}
+      25.833%{stroke-dashoffset:-0.27941}
+      26.250%{stroke-dashoffset:-0.28344}
+      26.667%{stroke-dashoffset:-0.28740}
+      27.083%{stroke-dashoffset:-0.29127}
+      27.500%{stroke-dashoffset:-0.29502}
+      27.917%{stroke-dashoffset:-0.29861}
+      28.333%{stroke-dashoffset:-0.30200}
+      28.750%{stroke-dashoffset:-0.30514}
+      29.167%{stroke-dashoffset:-0.30797}
+      29.583%{stroke-dashoffset:-0.31042}
+      30.000%{stroke-dashoffset:-0.31252}
+      30.417%{stroke-dashoffset:-0.31461}
+      30.833%{stroke-dashoffset:-0.31698}
+      31.250%{stroke-dashoffset:-0.31965}
+      31.667%{stroke-dashoffset:-0.32259}
+      32.083%{stroke-dashoffset:-0.32575}
+      32.500%{stroke-dashoffset:-0.32907}
+      32.917%{stroke-dashoffset:-0.33253}
+      33.333%{stroke-dashoffset:-0.33610}
+      33.750%{stroke-dashoffset:-0.33974}
+      34.167%{stroke-dashoffset:-0.34345}
+      34.583%{stroke-dashoffset:-0.34719}
+      35.000%{stroke-dashoffset:-0.35095}
+      35.417%{stroke-dashoffset:-0.35471}
+      35.833%{stroke-dashoffset:-0.35845}
+      36.250%{stroke-dashoffset:-0.36216}
+      36.667%{stroke-dashoffset:-0.36580}
+      37.083%{stroke-dashoffset:-0.36937}
+      37.500%{stroke-dashoffset:-0.37283}
+      37.917%{stroke-dashoffset:-0.37615}
+      38.333%{stroke-dashoffset:-0.37931}
+      38.750%{stroke-dashoffset:-0.38225}
+      39.167%{stroke-dashoffset:-0.38492}
+      39.583%{stroke-dashoffset:-0.38729}
+      40.000%{stroke-dashoffset:-0.38938}
+      40.417%{stroke-dashoffset:-0.39148}
+      40.833%{stroke-dashoffset:-0.39392}
+      41.250%{stroke-dashoffset:-0.39673}
+      41.667%{stroke-dashoffset:-0.39984}
+      42.083%{stroke-dashoffset:-0.40320}
+      42.500%{stroke-dashoffset:-0.40675}
+      42.917%{stroke-dashoffset:-0.41047}
+      43.333%{stroke-dashoffset:-0.41430}
+      43.750%{stroke-dashoffset:-0.41822}
+      44.167%{stroke-dashoffset:-0.42221}
+      44.583%{stroke-dashoffset:-0.42625}
+      45.000%{stroke-dashoffset:-0.43030}
+      45.417%{stroke-dashoffset:-0.43435}
+      45.833%{stroke-dashoffset:-0.43839}
+      46.250%{stroke-dashoffset:-0.44238}
+      46.667%{stroke-dashoffset:-0.44630}
+      47.083%{stroke-dashoffset:-0.45013}
+      47.500%{stroke-dashoffset:-0.45384}
+      47.917%{stroke-dashoffset:-0.45740}
+      48.333%{stroke-dashoffset:-0.46076}
+      48.750%{stroke-dashoffset:-0.46387}
+      49.167%{stroke-dashoffset:-0.46668}
+      49.583%{stroke-dashoffset:-0.46912}
+      50.000%{stroke-dashoffset:-0.47122}
+      50.417%{stroke-dashoffset:-0.47335}
+      50.833%{stroke-dashoffset:-0.47589}
+      51.250%{stroke-dashoffset:-0.47888}
+      51.667%{stroke-dashoffset:-0.48222}
+      52.083%{stroke-dashoffset:-0.48586}
+      52.500%{stroke-dashoffset:-0.48972}
+      52.917%{stroke-dashoffset:-0.49377}
+      53.333%{stroke-dashoffset:-0.49795}
+      53.750%{stroke-dashoffset:-0.50224}
+      54.167%{stroke-dashoffset:-0.50661}
+      54.583%{stroke-dashoffset:-0.51103}
+      55.000%{stroke-dashoffset:-0.51547}
+      55.417%{stroke-dashoffset:-0.51991}
+      55.833%{stroke-dashoffset:-0.52433}
+      56.250%{stroke-dashoffset:-0.52870}
+      56.667%{stroke-dashoffset:-0.53299}
+      57.083%{stroke-dashoffset:-0.53717}
+      57.500%{stroke-dashoffset:-0.54122}
+      57.917%{stroke-dashoffset:-0.54508}
+      58.333%{stroke-dashoffset:-0.54872}
+      58.750%{stroke-dashoffset:-0.55206}
+      59.167%{stroke-dashoffset:-0.55505}
+      59.583%{stroke-dashoffset:-0.55759}
+      60.000%{stroke-dashoffset:-0.55972}
+      60.417%{stroke-dashoffset:-0.56182}
+      60.833%{stroke-dashoffset:-0.56429}
+      61.250%{stroke-dashoffset:-0.56713}
+      61.667%{stroke-dashoffset:-0.57030}
+      62.083%{stroke-dashoffset:-0.57372}
+      62.500%{stroke-dashoffset:-0.57734}
+      62.917%{stroke-dashoffset:-0.58112}
+      63.333%{stroke-dashoffset:-0.58503}
+      63.750%{stroke-dashoffset:-0.58904}
+      64.167%{stroke-dashoffset:-0.59311}
+      64.583%{stroke-dashoffset:-0.59723}
+      65.000%{stroke-dashoffset:-0.60137}
+      65.417%{stroke-dashoffset:-0.60551}
+      65.833%{stroke-dashoffset:-0.60962}
+      66.250%{stroke-dashoffset:-0.61370}
+      66.667%{stroke-dashoffset:-0.61770}
+      67.083%{stroke-dashoffset:-0.62161}
+      67.500%{stroke-dashoffset:-0.62540}
+      67.917%{stroke-dashoffset:-0.62902}
+      68.333%{stroke-dashoffset:-0.63244}
+      68.750%{stroke-dashoffset:-0.63560}
+      69.167%{stroke-dashoffset:-0.63845}
+      69.583%{stroke-dashoffset:-0.64091}
+      70.000%{stroke-dashoffset:-0.64302}
+      70.417%{stroke-dashoffset:-0.64511}
+      70.833%{stroke-dashoffset:-0.64750}
+      71.250%{stroke-dashoffset:-0.65021}
+      71.667%{stroke-dashoffset:-0.65320}
+      72.083%{stroke-dashoffset:-0.65641}
+      72.500%{stroke-dashoffset:-0.65980}
+      72.917%{stroke-dashoffset:-0.66333}
+      73.333%{stroke-dashoffset:-0.66697}
+      73.750%{stroke-dashoffset:-0.67070}
+      74.167%{stroke-dashoffset:-0.67448}
+      74.583%{stroke-dashoffset:-0.67831}
+      75.000%{stroke-dashoffset:-0.68215}
+      75.417%{stroke-dashoffset:-0.68599}
+      75.833%{stroke-dashoffset:-0.68982}
+      76.250%{stroke-dashoffset:-0.69360}
+      76.667%{stroke-dashoffset:-0.69733}
+      77.083%{stroke-dashoffset:-0.70097}
+      77.500%{stroke-dashoffset:-0.70450}
+      77.917%{stroke-dashoffset:-0.70789}
+      78.333%{stroke-dashoffset:-0.71110}
+      78.750%{stroke-dashoffset:-0.71409}
+      79.167%{stroke-dashoffset:-0.71680}
+      79.583%{stroke-dashoffset:-0.71919}
+      80.000%{stroke-dashoffset:-0.72128}
+      80.417%{stroke-dashoffset:-0.72339}
+      80.833%{stroke-dashoffset:-0.72585}
+      81.250%{stroke-dashoffset:-0.72870}
+      81.667%{stroke-dashoffset:-0.73186}
+      82.083%{stroke-dashoffset:-0.73528}
+      82.500%{stroke-dashoffset:-0.73890}
+      82.917%{stroke-dashoffset:-0.74269}
+      83.333%{stroke-dashoffset:-0.74660}
+      83.750%{stroke-dashoffset:-0.75060}
+      84.167%{stroke-dashoffset:-0.75468}
+      84.583%{stroke-dashoffset:-0.75879}
+      85.000%{stroke-dashoffset:-0.76293}
+      85.417%{stroke-dashoffset:-0.76707}
+      85.833%{stroke-dashoffset:-0.77119}
+      86.250%{stroke-dashoffset:-0.77526}
+      86.667%{stroke-dashoffset:-0.77927}
+      87.083%{stroke-dashoffset:-0.78318}
+      87.500%{stroke-dashoffset:-0.78696}
+      87.917%{stroke-dashoffset:-0.79059}
+      88.333%{stroke-dashoffset:-0.79400}
+      88.750%{stroke-dashoffset:-0.79717}
+      89.167%{stroke-dashoffset:-0.80001}
+      89.583%{stroke-dashoffset:-0.80248}
+      90.000%{stroke-dashoffset:-0.80458}
+      90.417%{stroke-dashoffset:-0.80670}
+      90.833%{stroke-dashoffset:-0.80918}
+      91.250%{stroke-dashoffset:-0.81207}
+      91.667%{stroke-dashoffset:-0.81528}
+      92.083%{stroke-dashoffset:-0.81876}
+      92.500%{stroke-dashoffset:-0.82245}
+      92.917%{stroke-dashoffset:-0.82631}
+      93.333%{stroke-dashoffset:-0.83030}
+      93.750%{stroke-dashoffset:-0.83439}
+      94.167%{stroke-dashoffset:-0.83854}
+      94.583%{stroke-dashoffset:-0.84275}
+      95.000%{stroke-dashoffset:-0.84697}
+      95.417%{stroke-dashoffset:-0.85120}
+      95.833%{stroke-dashoffset:-0.85540}
+      96.250%{stroke-dashoffset:-0.85955}
+      96.667%{stroke-dashoffset:-0.86364}
+      97.083%{stroke-dashoffset:-0.86763}
+      97.500%{stroke-dashoffset:-0.87149}
+      97.917%{stroke-dashoffset:-0.87518}
+      98.333%{stroke-dashoffset:-0.87866}
+      98.750%{stroke-dashoffset:-0.88187}
+      99.167%{stroke-dashoffset:-0.88476}
+      99.583%{stroke-dashoffset:-0.88725}
+      100.000%{stroke-dashoffset:-0.88936}
+    }
+    @keyframes arrowRun{
+      0.000%{transform:translate(990.00px,540px) rotate(-90.00deg)}
+      0.417%{transform:translate(986.75px,540px) rotate(-118.26deg)}
+      0.833%{transform:translate(978.56px,540px) rotate(-131.85deg)}
+      1.250%{transform:translate(966.98px,540px) rotate(-139.01deg)}
+      1.667%{transform:translate(952.92px,540px) rotate(-143.28deg)}
+      2.083%{transform:translate(936.99px,540px) rotate(-146.04deg)}
+      2.500%{transform:translate(919.63px,540px) rotate(-147.94deg)}
+      2.917%{transform:translate(901.16px,540px) rotate(-149.27deg)}
+      3.333%{transform:translate(881.85px,540px) rotate(-150.22deg)}
+      3.750%{transform:translate(861.91px,540px) rotate(-150.88deg)}
+      4.167%{transform:translate(841.52px,540px) rotate(-151.32deg)}
+      4.583%{transform:translate(820.83px,540px) rotate(-151.57deg)}
+      5.000%{transform:translate(800.00px,540px) rotate(-151.65deg)}
+      5.417%{transform:translate(779.17px,540px) rotate(-151.57deg)}
+      5.833%{transform:translate(758.48px,540px) rotate(-151.32deg)}
+      6.250%{transform:translate(738.09px,540px) rotate(-150.88deg)}
+      6.667%{transform:translate(718.15px,540px) rotate(-150.22deg)}
+      7.083%{transform:translate(698.84px,540px) rotate(-149.27deg)}
+      7.500%{transform:translate(680.37px,540px) rotate(-147.94deg)}
+      7.917%{transform:translate(663.01px,540px) rotate(-146.04deg)}
+      8.333%{transform:translate(647.08px,540px) rotate(-143.28deg)}
+      8.750%{transform:translate(633.02px,540px) rotate(-139.01deg)}
+      9.167%{transform:translate(621.44px,540px) rotate(-131.85deg)}
+      9.583%{transform:translate(613.25px,540px) rotate(-118.26deg)}
+      10.000%{transform:translate(610.00px,540px) rotate(-90.00deg)}
+      10.417%{transform:translate(613.42px,540px) rotate(-60.49deg)}
+      10.833%{transform:translate(622.04px,540px) rotate(-46.69deg)}
+      11.250%{transform:translate(634.23px,540px) rotate(-39.54deg)}
+      11.667%{transform:translate(649.04px,540px) rotate(-35.32deg)}
+      12.083%{transform:translate(665.80px,540px) rotate(-32.61deg)}
+      12.500%{transform:translate(684.08px,540px) rotate(-30.76deg)}
+      12.917%{transform:translate(703.51px,540px) rotate(-29.46deg)}
+      13.333%{transform:translate(723.84px,540px) rotate(-28.53deg)}
+      13.750%{transform:translate(744.83px,540px) rotate(-27.89deg)}
+      14.167%{transform:translate(766.30px,540px) rotate(-27.46deg)}
+      14.583%{transform:translate(788.07px,540px) rotate(-27.21deg)}
+      15.000%{transform:translate(810.00px,540px) rotate(-27.14deg)}
+      15.417%{transform:translate(831.93px,540px) rotate(-27.21deg)}
+      15.833%{transform:translate(853.70px,540px) rotate(-27.46deg)}
+      16.250%{transform:translate(875.17px,540px) rotate(-27.89deg)}
+      16.667%{transform:translate(896.16px,540px) rotate(-28.53deg)}
+      17.083%{transform:translate(916.49px,540px) rotate(-29.46deg)}
+      17.500%{transform:translate(935.92px,540px) rotate(-30.76deg)}
+      17.917%{transform:translate(954.20px,540px) rotate(-32.61deg)}
+      18.333%{transform:translate(970.96px,540px) rotate(-35.32deg)}
+      18.750%{transform:translate(985.77px,540px) rotate(-39.54deg)}
+      19.167%{transform:translate(997.96px,540px) rotate(-46.69deg)}
+      19.583%{transform:translate(1006.58px,540px) rotate(-60.49deg)}
+      20.000%{transform:translate(1010.00px,540px) rotate(-90.00deg)}
+      20.417%{transform:translate(1006.88px,540px) rotate(-117.31deg)}
+      20.833%{transform:translate(999.02px,540px) rotate(-130.70deg)}
+      21.250%{transform:translate(987.89px,540px) rotate(-137.86deg)}
+      21.667%{transform:translate(974.38px,540px) rotate(-142.17deg)}
+      22.083%{transform:translate(959.08px,540px) rotate(-144.97deg)}
+      22.500%{transform:translate(942.40px,540px) rotate(-146.89deg)}
+      22.917%{transform:translate(924.67px,540px) rotate(-148.25deg)}
+      23.333%{transform:translate(906.12px,540px) rotate(-149.21deg)}
+      23.750%{transform:translate(886.97px,540px) rotate(-149.89deg)}
+      24.167%{transform:translate(867.38px,540px) rotate(-150.34deg)}
+      24.583%{transform:translate(847.51px,540px) rotate(-150.60deg)}
+      25.000%{transform:translate(827.50px,540px) rotate(-150.68deg)}
+      25.417%{transform:translate(807.49px,540px) rotate(-150.60deg)}
+      25.833%{transform:translate(787.62px,540px) rotate(-150.34deg)}
+      26.250%{transform:translate(768.03px,540px) rotate(-149.89deg)}
+      26.667%{transform:translate(748.88px,540px) rotate(-149.21deg)}
+      27.083%{transform:translate(730.33px,540px) rotate(-148.25deg)}
+      27.500%{transform:translate(712.60px,540px) rotate(-146.89deg)}
+      27.917%{transform:translate(695.92px,540px) rotate(-144.97deg)}
+      28.333%{transform:translate(680.62px,540px) rotate(-142.17deg)}
+      28.750%{transform:translate(667.11px,540px) rotate(-137.86deg)}
+      29.167%{transform:translate(655.98px,540px) rotate(-130.70deg)}
+      29.583%{transform:translate(648.12px,540px) rotate(-117.31deg)}
+      30.000%{transform:translate(645.00px,540px) rotate(-90.00deg)}
+      30.417%{transform:translate(647.78px,540px) rotate(-65.31deg)}
+      30.833%{transform:translate(654.78px,540px) rotate(-52.55deg)}
+      31.250%{transform:translate(664.69px,540px) rotate(-45.46deg)}
+      31.667%{transform:translate(676.72px,540px) rotate(-41.10deg)}
+      32.083%{transform:translate(690.34px,540px) rotate(-38.21deg)}
+      32.500%{transform:translate(705.19px,540px) rotate(-36.22deg)}
+      32.917%{transform:translate(720.98px,540px) rotate(-34.80deg)}
+      33.333%{transform:translate(737.49px,540px) rotate(-33.79deg)}
+      33.750%{transform:translate(754.55px,540px) rotate(-33.08deg)}
+      34.167%{transform:translate(771.99px,540px) rotate(-32.60deg)}
+      34.583%{transform:translate(789.68px,540px) rotate(-32.33deg)}
+      35.000%{transform:translate(807.50px,540px) rotate(-32.24deg)}
+      35.417%{transform:translate(825.32px,540px) rotate(-32.33deg)}
+      35.833%{transform:translate(843.01px,540px) rotate(-32.60deg)}
+      36.250%{transform:translate(860.45px,540px) rotate(-33.08deg)}
+      36.667%{transform:translate(877.51px,540px) rotate(-33.79deg)}
+      37.083%{transform:translate(894.02px,540px) rotate(-34.80deg)}
+      37.500%{transform:translate(909.81px,540px) rotate(-36.22deg)}
+      37.917%{transform:translate(924.66px,540px) rotate(-38.21deg)}
+      38.333%{transform:translate(938.28px,540px) rotate(-41.10deg)}
+      38.750%{transform:translate(950.31px,540px) rotate(-45.46deg)}
+      39.167%{transform:translate(960.22px,540px) rotate(-52.55deg)}
+      39.583%{transform:translate(967.22px,540px) rotate(-65.31deg)}
+      40.000%{transform:translate(970.00px,540px) rotate(-90.00deg)}
+      40.417%{transform:translate(966.92px,540px) rotate(-116.99deg)}
+      40.833%{transform:translate(959.17px,540px) rotate(-130.31deg)}
+      41.250%{transform:translate(948.19px,540px) rotate(-137.47deg)}
+      41.667%{transform:translate(934.87px,540px) rotate(-141.78deg)}
+      42.083%{transform:translate(919.78px,540px) rotate(-144.60deg)}
+      42.500%{transform:translate(903.33px,540px) rotate(-146.53deg)}
+      42.917%{transform:translate(885.84px,540px) rotate(-147.89deg)}
+      43.333%{transform:translate(867.55px,540px) rotate(-148.86deg)}
+      43.750%{transform:translate(848.65px,540px) rotate(-149.55deg)}
+      44.167%{transform:translate(829.33px,540px) rotate(-150.00deg)}
+      44.583%{transform:translate(809.73px,540px) rotate(-150.26deg)}
+      45.000%{transform:translate(790.00px,540px) rotate(-150.34deg)}
+      45.417%{transform:translate(770.27px,540px) rotate(-150.26deg)}
+      45.833%{transform:translate(750.67px,540px) rotate(-150.00deg)}
+      46.250%{transform:translate(731.35px,540px) rotate(-149.55deg)}
+      46.667%{transform:translate(712.45px,540px) rotate(-148.86deg)}
+      47.083%{transform:translate(694.16px,540px) rotate(-147.89deg)}
+      47.500%{transform:translate(676.67px,540px) rotate(-146.53deg)}
+      47.917%{transform:translate(660.22px,540px) rotate(-144.60deg)}
+      48.333%{transform:translate(645.13px,540px) rotate(-141.78deg)}
+      48.750%{transform:translate(631.81px,540px) rotate(-137.47deg)}
+      49.167%{transform:translate(620.83px,540px) rotate(-130.31deg)}
+      49.583%{transform:translate(613.08px,540px) rotate(-116.99deg)}
+      50.000%{transform:translate(610.00px,540px) rotate(-90.00deg)}
+      50.417%{transform:translate(613.47px,540px) rotate(-60.19deg)}
+      50.833%{transform:translate(622.19px,540px) rotate(-46.34deg)}
+      51.250%{transform:translate(634.53px,540px) rotate(-39.19deg)}
+      51.667%{transform:translate(649.52px,540px) rotate(-34.99deg)}
+      52.083%{transform:translate(666.50px,540px) rotate(-32.29deg)}
+      52.500%{transform:translate(685.00px,540px) rotate(-30.44deg)}
+      52.917%{transform:translate(704.68px,540px) rotate(-29.15deg)}
+      53.333%{transform:translate(725.26px,540px) rotate(-28.23deg)}
+      53.750%{transform:translate(746.51px,540px) rotate(-27.59deg)}
+      54.167%{transform:translate(768.25px,540px) rotate(-27.17deg)}
+      54.583%{transform:translate(790.30px,540px) rotate(-26.93deg)}
+      55.000%{transform:translate(812.50px,540px) rotate(-26.85deg)}
+      55.417%{transform:translate(834.70px,540px) rotate(-26.93deg)}
+      55.833%{transform:translate(856.75px,540px) rotate(-27.17deg)}
+      56.250%{transform:translate(878.49px,540px) rotate(-27.59deg)}
+      56.667%{transform:translate(899.74px,540px) rotate(-28.23deg)}
+      57.083%{transform:translate(920.32px,540px) rotate(-29.15deg)}
+      57.500%{transform:translate(940.00px,540px) rotate(-30.44deg)}
+      57.917%{transform:translate(958.50px,540px) rotate(-32.29deg)}
+      58.333%{transform:translate(975.48px,540px) rotate(-34.99deg)}
+      58.750%{transform:translate(990.47px,540px) rotate(-39.19deg)}
+      59.167%{transform:translate(1002.81px,540px) rotate(-46.34deg)}
+      59.583%{transform:translate(1011.53px,540px) rotate(-60.19deg)}
+      60.000%{transform:translate(1015.00px,540px) rotate(-90.00deg)}
+      60.417%{transform:translate(1011.83px,540px) rotate(-117.63deg)}
+      60.833%{transform:translate(1003.87px,540px) rotate(-131.09deg)}
+      61.250%{transform:translate(992.59px,540px) rotate(-138.25deg)}
+      61.667%{transform:translate(978.89px,540px) rotate(-142.54deg)}
+      62.083%{transform:translate(963.38px,540px) rotate(-145.33deg)}
+      62.500%{transform:translate(946.48px,540px) rotate(-147.25deg)}
+      62.917%{transform:translate(928.50px,540px) rotate(-148.59deg)}
+      63.333%{transform:translate(909.70px,540px) rotate(-149.55deg)}
+      63.750%{transform:translate(890.28px,540px) rotate(-150.23deg)}
+      64.167%{transform:translate(870.42px,540px) rotate(-150.67deg)}
+      64.583%{transform:translate(850.28px,540px) rotate(-150.93deg)}
+      65.000%{transform:translate(830.00px,540px) rotate(-151.01deg)}
+      65.417%{transform:translate(809.72px,540px) rotate(-150.93deg)}
+      65.833%{transform:translate(789.58px,540px) rotate(-150.67deg)}
+      66.250%{transform:translate(769.72px,540px) rotate(-150.23deg)}
+      66.667%{transform:translate(750.30px,540px) rotate(-149.55deg)}
+      67.083%{transform:translate(731.50px,540px) rotate(-148.59deg)}
+      67.500%{transform:translate(713.52px,540px) rotate(-147.25deg)}
+      67.917%{transform:translate(696.62px,540px) rotate(-145.33deg)}
+      68.333%{transform:translate(681.11px,540px) rotate(-142.54deg)}
+      68.750%{transform:translate(667.41px,540px) rotate(-138.25deg)}
+      69.167%{transform:translate(656.13px,540px) rotate(-131.09deg)}
+      69.583%{transform:translate(648.17px,540px) rotate(-117.63deg)}
+      70.000%{transform:translate(645.00px,540px) rotate(-90.00deg)}
+      70.417%{transform:translate(647.87px,540px) rotate(-64.64deg)}
+      70.833%{transform:translate(655.08px,540px) rotate(-51.71deg)}
+      71.250%{transform:translate(665.29px,540px) rotate(-44.59deg)}
+      71.667%{transform:translate(677.69px,540px) rotate(-40.24deg)}
+      72.083%{transform:translate(691.74px,540px) rotate(-37.37deg)}
+      72.500%{transform:translate(707.04px,540px) rotate(-35.40deg)}
+      72.917%{transform:translate(723.32px,540px) rotate(-33.99deg)}
+      73.333%{transform:translate(740.34px,540px) rotate(-32.99deg)}
+      73.750%{transform:translate(757.92px,540px) rotate(-32.29deg)}
+      74.167%{transform:translate(775.90px,540px) rotate(-31.82deg)}
+      74.583%{transform:translate(794.14px,540px) rotate(-31.55deg)}
+      75.000%{transform:translate(812.50px,540px) rotate(-31.46deg)}
+      75.417%{transform:translate(830.86px,540px) rotate(-31.55deg)}
+      75.833%{transform:translate(849.10px,540px) rotate(-31.82deg)}
+      76.250%{transform:translate(867.08px,540px) rotate(-32.29deg)}
+      76.667%{transform:translate(884.66px,540px) rotate(-32.99deg)}
+      77.083%{transform:translate(901.68px,540px) rotate(-33.99deg)}
+      77.500%{transform:translate(917.96px,540px) rotate(-35.40deg)}
+      77.917%{transform:translate(933.26px,540px) rotate(-37.37deg)}
+      78.333%{transform:translate(947.31px,540px) rotate(-40.24deg)}
+      78.750%{transform:translate(959.71px,540px) rotate(-44.59deg)}
+      79.167%{transform:translate(969.92px,540px) rotate(-51.71deg)}
+      79.583%{transform:translate(977.13px,540px) rotate(-64.64deg)}
+      80.000%{transform:translate(980.00px,540px) rotate(-90.00deg)}
+      80.417%{transform:translate(976.83px,540px) rotate(-117.63deg)}
+      80.833%{transform:translate(968.87px,540px) rotate(-131.09deg)}
+      81.250%{transform:translate(957.59px,540px) rotate(-138.25deg)}
+      81.667%{transform:translate(943.89px,540px) rotate(-142.54deg)}
+      82.083%{transform:translate(928.38px,540px) rotate(-145.33deg)}
+      82.500%{transform:translate(911.48px,540px) rotate(-147.25deg)}
+      82.917%{transform:translate(893.50px,540px) rotate(-148.59deg)}
+      83.333%{transform:translate(874.70px,540px) rotate(-149.55deg)}
+      83.750%{transform:translate(855.28px,540px) rotate(-150.23deg)}
+      84.167%{transform:translate(835.42px,540px) rotate(-150.67deg)}
+      84.583%{transform:translate(815.28px,540px) rotate(-150.93deg)}
+      85.000%{transform:translate(795.00px,540px) rotate(-151.01deg)}
+      85.417%{transform:translate(774.72px,540px) rotate(-150.93deg)}
+      85.833%{transform:translate(754.58px,540px) rotate(-150.67deg)}
+      86.250%{transform:translate(734.72px,540px) rotate(-150.23deg)}
+      86.667%{transform:translate(715.30px,540px) rotate(-149.55deg)}
+      87.083%{transform:translate(696.50px,540px) rotate(-148.59deg)}
+      87.500%{transform:translate(678.52px,540px) rotate(-147.25deg)}
+      87.917%{transform:translate(661.62px,540px) rotate(-145.33deg)}
+      88.333%{transform:translate(646.11px,540px) rotate(-142.54deg)}
+      88.750%{transform:translate(632.41px,540px) rotate(-138.25deg)}
+      89.167%{transform:translate(621.13px,540px) rotate(-131.09deg)}
+      89.583%{transform:translate(613.17px,540px) rotate(-117.63deg)}
+      90.000%{transform:translate(610.00px,540px) rotate(-90.00deg)}
+      90.417%{transform:translate(613.25px,540px) rotate(-61.74deg)}
+      90.833%{transform:translate(621.44px,540px) rotate(-48.15deg)}
+      91.250%{transform:translate(633.02px,540px) rotate(-40.99deg)}
+      91.667%{transform:translate(647.08px,540px) rotate(-36.72deg)}
+      92.083%{transform:translate(663.01px,540px) rotate(-33.96deg)}
+      92.500%{transform:translate(680.37px,540px) rotate(-32.06deg)}
+      92.917%{transform:translate(698.84px,540px) rotate(-30.73deg)}
+      93.333%{transform:translate(718.15px,540px) rotate(-29.78deg)}
+      93.750%{transform:translate(738.09px,540px) rotate(-29.12deg)}
+      94.167%{transform:translate(758.48px,540px) rotate(-28.68deg)}
+      94.583%{transform:translate(779.17px,540px) rotate(-28.43deg)}
+      95.000%{transform:translate(800.00px,540px) rotate(-28.35deg)}
+      95.417%{transform:translate(820.83px,540px) rotate(-28.43deg)}
+      95.833%{transform:translate(841.52px,540px) rotate(-28.68deg)}
+      96.250%{transform:translate(861.91px,540px) rotate(-29.12deg)}
+      96.667%{transform:translate(881.85px,540px) rotate(-29.78deg)}
+      97.083%{transform:translate(901.16px,540px) rotate(-30.73deg)}
+      97.500%{transform:translate(919.63px,540px) rotate(-32.06deg)}
+      97.917%{transform:translate(936.99px,540px) rotate(-33.96deg)}
+      98.333%{transform:translate(952.92px,540px) rotate(-36.72deg)}
+      98.750%{transform:translate(966.98px,540px) rotate(-40.99deg)}
+      99.167%{transform:translate(978.56px,540px) rotate(-48.15deg)}
+      99.583%{transform:translate(986.75px,540px) rotate(-61.74deg)}
+      100.000%{transform:translate(990.00px,540px) rotate(-90.00deg)}
+    }
+    @media (prefers-reduced-motion:reduce){
+      .camera,.trail,.travelArrow{animation:none}
+      .camera{transform:translateY(-2960px)}
+      .trail{stroke-dashoffset:-0.05743}
+      .travelArrow{transform:translate(990px,540px) rotate(-90deg)}
+    }
+  </style>
+</defs>
+<rect width="1600" height="900" fill="url(#paper)"/>
+<circle cx="1540" cy="38" r="7" fill="#b46a53"/>
+<text x="60" y="38" class="kicker">TARANKAN EXIM · QUALITY CONTROL</text>
+<rect x="40" y="82" width="1520" height="736" rx="34" fill="url(#stage)"/>
+<rect x="40" y="82" width="1520" height="736" rx="34" fill="none" stroke="#d5d9d7" stroke-width="1.5"/>
+<g clip-path="url(#viewportClip)">
+  <g class="camera">
+    <path class="trail" pathLength="1" d="M 980 4040 C 980 3975, 610 3835, 610 3770 C 610 3705, 990 3565, 990 3500 C 990 3435, 610 3295, 610 3230 C 610 3165, 1010 3025, 1010 2960 C 1010 2895, 645 2755, 645 2690 C 645 2625, 970 2485, 970 2420 C 970 2355, 610 2215, 610 2150 C 610 2085, 1015 1945, 1015 1880 C 1015 1815, 645 1675, 645 1610 C 645 1545, 980 1405, 980 1340 C 980 1275, 610 1135, 610 1070 C 610 1005, 990 865, 990 800" fill="none" stroke="#77736d" stroke-opacity="0.18" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+    <path class="trail" pathLength="1" d="M 980 4040 C 980 3975, 610 3835, 610 3770 C 610 3705, 990 3565, 990 3500 C 990 3435, 610 3295, 610 3230 C 610 3165, 1010 3025, 1010 2960 C 1010 2895, 645 2755, 645 2690 C 645 2625, 970 2485, 970 2420 C 970 2355, 610 2215, 610 2150 C 610 2085, 1015 1945, 1015 1880 C 1015 1815, 645 1675, 645 1610 C 645 1545, 980 1405, 980 1340 C 980 1275, 610 1135, 610 1070 C 610 1005, 990 865, 990 800" fill="none" stroke="#ffffff" stroke-opacity="0.98" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+    <path class="trail" pathLength="1" d="M 980 4040 C 980 3975, 610 3835, 610 3770 C 610 3705, 990 3565, 990 3500 C 990 3435, 610 3295, 610 3230 C 610 3165, 1010 3025, 1010 2960 C 1010 2895, 645 2755, 645 2690 C 645 2625, 970 2485, 970 2420 C 970 2355, 610 2215, 610 2150 C 610 2085, 1015 1945, 1015 1880 C 1015 1815, 645 1675, 645 1610 C 645 1545, 980 1405, 980 1340 C 980 1275, 610 1135, 610 1070 C 610 1005, 990 865, 990 800" fill="none" stroke="url(#routeCore)" stroke-opacity="0.92" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+    <path class="trail" pathLength="1" d="M 980 4040 C 980 3975, 610 3835, 610 3770 C 610 3705, 990 3565, 990 3500 C 990 3435, 610 3295, 610 3230 C 610 3165, 1010 3025, 1010 2960 C 1010 2895, 645 2755, 645 2690 C 645 2625, 970 2485, 970 2420 C 970 2355, 610 2215, 610 2150 C 610 2085, 1015 1945, 1015 1880 C 1015 1815, 645 1675, 645 1610 C 645 1545, 980 1405, 980 1340 C 980 1275, 610 1135, 610 1070 C 610 1005, 990 865, 990 800" fill="none" stroke="url(#routeHighlight)" stroke-opacity="0.68" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g>
+      <path d="M 990 3500 H 1065" stroke="#aaa59d" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="990" cy="3500" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="1085" y="3422" width="430" height="156" rx="24" fill="#f7f3ec" filter="url(#cardShadow)"/>
+      <rect x="1085" y="3422" width="92" height="156" rx="24" fill="#D29B43"/>
+      <rect x="1159" y="3422" width="18" height="156" fill="#D29B43"/>
+      <text x="1131" y="3496" text-anchor="middle" class="emoji">📐</text>
+      <text x="1131" y="3543" text-anchor="middle" class="lineNo">01</text>
+      <text x="1197" y="3456" class="cardNo">STEP 01</text>
+      <text x="1197" y="3486" class="cardTitle">Specification Verification</text>
+      <text x="1197" y="3511" class="bodyDark">Product drawings, specifications, grades and</text>
+      <text x="1197" y="3528" class="bodyDark">buyer requirements are checked before</text>
+      <text x="1197" y="3545" class="bodyDark">inspection begins.</text>
+    </g>
+    <g>
+      <path d="M 610 3230 H 535" stroke="#aaa59d" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="610" cy="3230" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="85" y="3152" width="430" height="156" rx="24" fill="#f7f3ec" filter="url(#cardShadow)"/>
+      <rect x="85" y="3152" width="92" height="156" rx="24" fill="#C96C4D"/>
+      <rect x="159" y="3152" width="18" height="156" fill="#C96C4D"/>
+      <text x="131" y="3226" text-anchor="middle" class="emoji">🔎</text>
+      <text x="131" y="3273" text-anchor="middle" class="lineNo">02</text>
+      <text x="197" y="3186" class="cardNo">STEP 02</text>
+      <text x="197" y="3216" class="cardTitle">Material Inspection</text>
+      <text x="197" y="3241" class="bodyDark">Materials, grades and certificates are checked</text>
+      <text x="197" y="3258" class="bodyDark">against the approved specification and</text>
+      <text x="197" y="3275" class="bodyDark">purchase requirements.</text>
+    </g>
+    <g>
+      <path d="M 1010 2960 H 1065" stroke="#aaa59d" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="1010" cy="2960" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="1085" y="2882" width="430" height="156" rx="24" fill="#f7f3ec" filter="url(#cardShadow)"/>
+      <rect x="1085" y="2882" width="92" height="156" rx="24" fill="#4EA7AC"/>
+      <rect x="1159" y="2882" width="18" height="156" fill="#4EA7AC"/>
+      <text x="1131" y="2956" text-anchor="middle" class="emoji">📏</text>
+      <text x="1131" y="3003" text-anchor="middle" class="lineNo">03</text>
+      <text x="1197" y="2916" class="cardNo">STEP 03</text>
+      <text x="1197" y="2946" class="cardTitle">Dimensional Accuracy</text>
+      <text x="1197" y="2971" class="bodyDark">Critical dimensions, tolerances and fitment</text>
+      <text x="1197" y="2988" class="bodyDark">points are measured using suitable calibrated</text>
+      <text x="1197" y="3005" class="bodyDark">tools.</text>
+    </g>
+    <g>
+      <path d="M 645 2690 H 535" stroke="#aaa59d" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="645" cy="2690" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="85" y="2612" width="430" height="156" rx="24" fill="#f7f3ec" filter="url(#cardShadow)"/>
+      <rect x="85" y="2612" width="92" height="156" rx="24" fill="#786F92"/>
+      <rect x="159" y="2612" width="18" height="156" fill="#786F92"/>
+      <text x="131" y="2686" text-anchor="middle" class="emoji">✨</text>
+      <text x="131" y="2733" text-anchor="middle" class="lineNo">04</text>
+      <text x="197" y="2646" class="cardNo">STEP 04</text>
+      <text x="197" y="2676" class="cardTitle">Workmanship &amp; Finish</text>
+      <text x="197" y="2701" class="bodyDark">Surface finish, welding, machining and visible</text>
+      <text x="197" y="2718" class="bodyDark">workmanship are examined for defects and</text>
+      <text x="197" y="2735" class="bodyDark">consistency.</text>
+    </g>
+    <g>
+      <path d="M 970 2420 H 1065" stroke="#aaa59d" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="970" cy="2420" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="1085" y="2342" width="430" height="156" rx="24" fill="#f7f3ec" filter="url(#cardShadow)"/>
+      <rect x="1085" y="2342" width="92" height="156" rx="24" fill="#8C9870"/>
+      <rect x="1159" y="2342" width="18" height="156" fill="#8C9870"/>
+      <text x="1131" y="2416" text-anchor="middle" class="emoji">⚙️</text>
+      <text x="1131" y="2463" text-anchor="middle" class="lineNo">05</text>
+      <text x="1197" y="2376" class="cardNo">STEP 05</text>
+      <text x="1197" y="2406" class="cardTitle">Functional Inspection</text>
+      <text x="1197" y="2431" class="bodyDark">Assemblies and components are tested where</text>
+      <text x="1197" y="2448" class="bodyDark">applicable for function, movement, fit and</text>
+      <text x="1197" y="2465" class="bodyDark">basic performance.</text>
+    </g>
+    <g>
+      <path d="M 610 2150 H 535" stroke="#aaa59d" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="610" cy="2150" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="85" y="2072" width="430" height="156" rx="24" fill="#f7f3ec" filter="url(#cardShadow)"/>
+      <rect x="85" y="2072" width="92" height="156" rx="24" fill="#A36F4E"/>
+      <rect x="159" y="2072" width="18" height="156" fill="#A36F4E"/>
+      <text x="131" y="2146" text-anchor="middle" class="emoji">🔢</text>
+      <text x="131" y="2193" text-anchor="middle" class="lineNo">06</text>
+      <text x="197" y="2106" class="cardNo">STEP 06</text>
+      <text x="197" y="2136" class="cardTitle">Quantity Verification</text>
+      <text x="197" y="2161" class="bodyDark">Packed and loose quantities are counted and</text>
+      <text x="197" y="2178" class="bodyDark">reconciled against the order, packing list and</text>
+      <text x="197" y="2195" class="bodyDark">approved quantity.</text>
+    </g>
+    <g>
+      <path d="M 1015 1880 H 1065" stroke="#aaa59d" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="1015" cy="1880" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="1085" y="1802" width="430" height="156" rx="24" fill="#f7f3ec" filter="url(#cardShadow)"/>
+      <rect x="1085" y="1802" width="92" height="156" rx="24" fill="#5E8B8F"/>
+      <rect x="1159" y="1802" width="18" height="156" fill="#5E8B8F"/>
+      <text x="1131" y="1876" text-anchor="middle" class="emoji">📦</text>
+      <text x="1131" y="1923" text-anchor="middle" class="lineNo">07</text>
+      <text x="1197" y="1836" class="cardNo">STEP 07</text>
+      <text x="1197" y="1866" class="cardTitle">Packaging Inspection</text>
+      <text x="1197" y="1891" class="bodyDark">Packaging is checked for protection,</text>
+      <text x="1197" y="1908" class="bodyDark">suitability, sealing, handling marks and</text>
+      <text x="1197" y="1925" class="bodyDark">export-readiness.</text>
+    </g>
+    <g>
+      <path d="M 645 1610 H 535" stroke="#aaa59d" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="645" cy="1610" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="85" y="1532" width="430" height="156" rx="24" fill="#f7f3ec" filter="url(#cardShadow)"/>
+      <rect x="85" y="1532" width="92" height="156" rx="24" fill="#6C8491"/>
+      <rect x="159" y="1532" width="18" height="156" fill="#6C8491"/>
+      <text x="131" y="1606" text-anchor="middle" class="emoji">🚢</text>
+      <text x="131" y="1653" text-anchor="middle" class="lineNo">08</text>
+      <text x="197" y="1566" class="cardNo">STEP 08</text>
+      <text x="197" y="1596" class="cardTitle">Cargo Condition Check</text>
+      <text x="197" y="1621" class="bodyDark">Before dispatch, cargo is checked for damage,</text>
+      <text x="197" y="1638" class="bodyDark">moisture, deformation or other visible</text>
+      <text x="197" y="1655" class="bodyDark">handling issues.</text>
+    </g>
+    <g>
+      <path d="M 980 1340 H 1065" stroke="#aaa59d" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="980" cy="1340" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="1085" y="1262" width="430" height="156" rx="24" fill="#f7f3ec" filter="url(#cardShadow)"/>
+      <rect x="1085" y="1262" width="92" height="156" rx="24" fill="#BF7469"/>
+      <rect x="1159" y="1262" width="18" height="156" fill="#BF7469"/>
+      <text x="1131" y="1336" text-anchor="middle" class="emoji">🏷️</text>
+      <text x="1131" y="1383" text-anchor="middle" class="lineNo">09</text>
+      <text x="1197" y="1296" class="cardNo">STEP 09</text>
+      <text x="1197" y="1326" class="cardTitle">Labelling &amp; Marking</text>
+      <text x="1197" y="1351" class="bodyDark">Product, carton and shipment markings are</text>
+      <text x="1197" y="1368" class="bodyDark">checked for correctness, readability and buyer</text>
+      <text x="1197" y="1385" class="bodyDark">requirements.</text>
+    </g>
+    <g>
+      <path d="M 610 1070 H 535" stroke="#aaa59d" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="610" cy="1070" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="85" y="992" width="430" height="156" rx="24" fill="#f7f3ec" filter="url(#cardShadow)"/>
+      <rect x="85" y="992" width="92" height="156" rx="24" fill="#69776F"/>
+      <rect x="159" y="992" width="18" height="156" fill="#69776F"/>
+      <text x="131" y="1066" text-anchor="middle" class="emoji">✅</text>
+      <text x="131" y="1113" text-anchor="middle" class="lineNo">10</text>
+      <text x="197" y="1026" class="cardNo">STEP 10</text>
+      <text x="197" y="1056" class="cardTitle">Pre-Dispatch Inspection</text>
+      <text x="197" y="1081" class="bodyDark">Final inspection confirms the shipment meets</text>
+      <text x="197" y="1098" class="bodyDark">agreed quality requirements before it leaves</text>
+      <text x="197" y="1115" class="bodyDark">the supplier.</text>
+    </g>
+    <g>
+      <path d="M 990 800 H 1065" stroke="#aaa59d" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="990" cy="800" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="1085" y="722" width="430" height="156" rx="24" fill="#f7f3ec" filter="url(#cardShadow)"/>
+      <rect x="1085" y="722" width="92" height="156" rx="24" fill="#D29B43"/>
+      <rect x="1159" y="722" width="18" height="156" fill="#D29B43"/>
+      <text x="1131" y="796" text-anchor="middle" class="emoji">📐</text>
+      <text x="1131" y="843" text-anchor="middle" class="lineNo">01</text>
+      <text x="1197" y="756" class="cardNo">STEP 01</text>
+      <text x="1197" y="786" class="cardTitle">Specification Verification</text>
+      <text x="1197" y="811" class="bodyDark">Product drawings, specifications, grades and</text>
+      <text x="1197" y="828" class="bodyDark">buyer requirements are checked before</text>
+      <text x="1197" y="845" class="bodyDark">inspection begins.</text>
+    </g>
+    <g>
+      <path d="M 610 530 H 535" stroke="#aaa59d" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="610" cy="530" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="85" y="452" width="430" height="156" rx="24" fill="#f7f3ec" filter="url(#cardShadow)"/>
+      <rect x="85" y="452" width="92" height="156" rx="24" fill="#C96C4D"/>
+      <rect x="159" y="452" width="18" height="156" fill="#C96C4D"/>
+      <text x="131" y="526" text-anchor="middle" class="emoji">🔎</text>
+      <text x="131" y="573" text-anchor="middle" class="lineNo">02</text>
+      <text x="197" y="486" class="cardNo">STEP 02</text>
+      <text x="197" y="516" class="cardTitle">Material Inspection</text>
+      <text x="197" y="541" class="bodyDark">Materials, grades and certificates are checked</text>
+      <text x="197" y="558" class="bodyDark">against the approved specification and</text>
+      <text x="197" y="575" class="bodyDark">purchase requirements.</text>
+    </g>
+    <g>
+      <path d="M 1010 260 H 1065" stroke="#aaa59d" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="1010" cy="260" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="1085" y="182" width="430" height="156" rx="24" fill="#f7f3ec" filter="url(#cardShadow)"/>
+      <rect x="1085" y="182" width="92" height="156" rx="24" fill="#4EA7AC"/>
+      <rect x="1159" y="182" width="18" height="156" fill="#4EA7AC"/>
+      <text x="1131" y="256" text-anchor="middle" class="emoji">📏</text>
+      <text x="1131" y="303" text-anchor="middle" class="lineNo">03</text>
+      <text x="1197" y="216" class="cardNo">STEP 03</text>
+      <text x="1197" y="246" class="cardTitle">Dimensional Accuracy</text>
+      <text x="1197" y="271" class="bodyDark">Critical dimensions, tolerances and fitment</text>
+      <text x="1197" y="288" class="bodyDark">points are measured using suitable calibrated</text>
+      <text x="1197" y="305" class="bodyDark">tools.</text>
+    </g>
+    <g>
+      <path d="M 610 3770 H 535" stroke="#aaa59d" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="610" cy="3770" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="85" y="3692" width="430" height="156" rx="24" fill="#f7f3ec" filter="url(#cardShadow)"/>
+      <rect x="85" y="3692" width="92" height="156" rx="24" fill="#69776F"/>
+      <rect x="159" y="3692" width="18" height="156" fill="#69776F"/>
+      <text x="131" y="3766" text-anchor="middle" class="emoji">✅</text>
+      <text x="131" y="3813" text-anchor="middle" class="lineNo">10</text>
+      <text x="197" y="3726" class="cardNo">STEP 10</text>
+      <text x="197" y="3756" class="cardTitle">Pre-Dispatch Inspection</text>
+      <text x="197" y="3781" class="bodyDark">Final inspection confirms the shipment meets</text>
+      <text x="197" y="3798" class="bodyDark">agreed quality requirements before it leaves</text>
+      <text x="197" y="3815" class="bodyDark">the supplier.</text>
+    </g>
+    <g>
+      <path d="M 980 4040 H 1065" stroke="#aaa59d" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="980" cy="4040" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="1085" y="3962" width="430" height="156" rx="24" fill="#f7f3ec" filter="url(#cardShadow)"/>
+      <rect x="1085" y="3962" width="92" height="156" rx="24" fill="#BF7469"/>
+      <rect x="1159" y="3962" width="18" height="156" fill="#BF7469"/>
+      <text x="1131" y="4036" text-anchor="middle" class="emoji">🏷️</text>
+      <text x="1131" y="4083" text-anchor="middle" class="lineNo">09</text>
+      <text x="1197" y="3996" class="cardNo">STEP 09</text>
+      <text x="1197" y="4026" class="cardTitle">Labelling &amp; Marking</text>
+      <text x="1197" y="4051" class="bodyDark">Product, carton and shipment markings are</text>
+      <text x="1197" y="4068" class="bodyDark">checked for correctness, readability and buyer</text>
+      <text x="1197" y="4085" class="bodyDark">requirements.</text>
+    </g>
+  </g>
+  <!-- arrow lives in screen space at a fixed height; only its x / heading follow the route -->
+  <g class="travelArrow" filter="url(#arrowGlow)">
+    <circle r="26" fill="#b46a53" opacity="0.13"/>
+    <circle r="11" fill="#b46a53"/>
+    <path d="M -13 -9 L 15 0 L -13 9 Z" fill="#ffffff"/>
+  </g>
+</g>
+<rect x="40" y="82" width="1520" height="736" rx="34" fill="none" stroke="#d5d9d7" stroke-width="1.5"/>
+<g transform="translate(60 858)">
+  <circle cx="0" cy="0" r="5" fill="#b46a53"/>
+  <text x="16" y="4" class="meta">SPECIFICATION → INSPECTION → PRE-DISPATCH</text>
+</g>
+<!-- <text x="1540" y="862" text-anchor="end" class="meta">CAMERA MOVES UP · ROUTE FOLLOWS</text> -->
+</svg>

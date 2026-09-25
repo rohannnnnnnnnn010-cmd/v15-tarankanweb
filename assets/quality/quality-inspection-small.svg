@@ -1,0 +1,775 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+<title id="title">Tarankan Exim — Continuous Quality Inspection Journey</title>
+<desc id="desc">A seamless forward quality inspection journey. The camera travels upward from Specification Verification to Pre-Dispatch Inspection. Only three to four checkpoints are in view, and the route is visibly drawn behind the moving arrow as it advances.</desc>
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f8f5ef"/><stop offset="1" stop-color="#eee9df"/></linearGradient>
+  <linearGradient id="routeCore" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#7f7a73"/><stop offset="0.55" stop-color="#4f4c46"/><stop offset="1" stop-color="#272622"/></linearGradient>
+  <linearGradient id="routeHighlight" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#f3efe8" stop-opacity="0.85"/></linearGradient>
+  <filter id="cardShadow" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#1a1917" flood-opacity="0.18"/></filter>
+  <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#1a1917" flood-opacity="0.12"/></filter>
+  <filter id="arrowGlow" x="-300%" y="-300%" width="600%" height="600%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="viewportClip"><rect x="36" y="98" width="1128" height="760" rx="42"/></clipPath>
+  <style>
+    .kicker{font-family:'DM Sans',Arial,sans-serif;font-size:15px;font-weight:700;letter-spacing:3.4px;fill:#7c776e}
+    .head{font-family:'Playfair Display',Georgia,serif;font-size:30px;font-weight:700;fill:#1c1b18}
+    .meta{font-family:'DM Sans',Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:2px;fill:#8b857b}
+    .cardTitle{font-family:'DM Sans',Arial,sans-serif;font-size:17px;font-weight:800;letter-spacing:.05px;fill:#fff}
+    .cardNo{font-family:'DM Sans',Arial,sans-serif;font-size:12px;font-weight:800;letter-spacing:1.6px;fill:#fff;fill-opacity:.86}
+    .body{font-family:'DM Sans',Arial,sans-serif;font-size:13.2px;font-weight:500;fill:#5f5b54}
+    .sideTitle{font-family:'DM Sans',Arial,sans-serif;font-size:18px;font-weight:800;fill:#272520}
+    .lineNo{font-family:'DM Sans',Arial,sans-serif;font-size:12px;font-weight:800;letter-spacing:2px;fill:#9b9489}
+    .emoji{font-family:'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif;font-size:31px}
+    @keyframes cameraLoop{
+      from{transform:translateY(-1900px)}
+      to{transform:translateY(600px)}
+    }
+    @keyframes routeTrail{
+    from{
+        stroke-dashoffset:1400px;
+    }
+
+    to{
+        stroke-dashoffset:-3255.84px;
+    }
+}
+
+.camera{
+    animation:cameraLoop 20s linear infinite;
+    transform-box:fill-box;
+    transform-origin:50% 50%;
+}
+
+.trail{
+    /*
+       1400px of route remains visible behind
+       the moving arrow.
+    */
+    stroke-dasharray:1400px 27935.07px;
+
+    /*
+       Start exactly at the arrow position.
+    */
+    stroke-dashoffset:1400px;
+
+    animation:routeTrail 20s linear infinite;
+}
+    @media (prefers-reduced-motion:reduce){
+      .camera{animation:none;transform:translateY(-1900px)}
+      .trail{animation:none;stroke-dashoffset:760px}
+      .travelArrow{display:none}
+    }
+  </style>
+</defs>
+
+<rect width="1200" height="900" fill="url(#paper)"/>
+<rect x="36" y="98" width="1128" height="760" rx="42" fill="#e4e9ea"/>
+<rect x="36" y="98" width="1128" height="760" rx="42" fill="none" stroke="#d7d8d3" stroke-width="1.5"/>
+<circle cx="1010" cy="55" r="8" fill="#b46a53"/>
+<text x="72" y="48" class="kicker">TARANKAN EXIM · QUALITY CONTROL</text>
+<text x="72" y="80" class="head">A continuous inspection journey</text>
+<!-- <text x="1128" y="54" text-anchor="end" class="meta">10 CHECKPOINTS · FORWARD / LOOPING</text> -->
+
+<g clip-path="url(#viewportClip)">
+  <g class="camera">
+    <!-- No static route: the route is literally painted behind the moving arrow. -->
+    <path class="trail" d="M 820 2520 C 820 2355.0, 450 2435.0, 450 2270 C 450 2105.0, 790 2185.0, 790 2020 C 790 1855.0, 460 1935.0, 460 1770 C 460 1605.0, 800 1685.0, 800 1520 C 800 1355.0, 440 1435.0, 440 1270 C 440 1105.0, 785 1185.0, 785 1020 C 785 855.0, 455 935.0, 455 770 C 455 605.0, 815 685.0, 815 520 C 815 355.0, 470 435.0, 470 270 C 470 105.0, 820 185.0, 820 20 C 820 -145.0, 450 -65.0, 450 -230 C 450 -395.0, 790 -315.0, 790 -480 C 790 -645.0, 460 -565.0, 460 -730 C 460 -895.0, 800 -815.0, 800 -980 C 800 -1145.0, 440 -1065.0, 440 -1230 C 440 -1395.0, 785 -1315.0, 785 -1480 C 785 -1645.0, 455 -1565.0, 455 -1730 C 455 -1895.0, 815 -1815.0, 815 -1980 C 815 -2145.0, 470 -2065.0, 470 -2230 C 470 -2395.0, 820 -2315.0, 820 -2480 C 820 -2645.0, 450 -2565.0, 450 -2730 C 450 -2895.0, 790 -2815.0, 790 -2980 C 790 -3145.0, 460 -3065.0, 460 -3230 C 460 -3395.0, 800 -3315.0, 800 -3480 C 800 -3645.0, 440 -3565.0, 440 -3730 C 440 -3895.0, 785 -3815.0, 785 -3980 C 785 -4145.0, 455 -4065.0, 455 -4230 C 455 -4395.0, 815 -4315.0, 815 -4480 C 815 -4645.0, 470 -4565.0, 470 -4730 C 470 -4895.0, 820 -4815.0, 820 -4980 C 820 -5145.0, 450 -5065.0, 450 -5230 C 450 -5395.0, 790 -5315.0, 790 -5480 C 790 -5645.0, 460 -5565.0, 460 -5730 C 460 -5895.0, 800 -5815.0, 800 -5980 C 800 -6145.0, 440 -6065.0, 440 -6230 C 440 -6395.0, 785 -6315.0, 785 -6480 C 785 -6645.0, 455 -6565.0, 455 -6730 C 455 -6895.0, 815 -6815.0, 815 -6980 C 815 -7145.0, 470 -7065.0, 470 -7230 C 470 -7395.0, 820 -7315.0, 820 -7480" fill="none" stroke="#7f7b74" stroke-opacity="0.20" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+    <path class="trail" d="M 820 2520 C 820 2355.0, 450 2435.0, 450 2270 C 450 2105.0, 790 2185.0, 790 2020 C 790 1855.0, 460 1935.0, 460 1770 C 460 1605.0, 800 1685.0, 800 1520 C 800 1355.0, 440 1435.0, 440 1270 C 440 1105.0, 785 1185.0, 785 1020 C 785 855.0, 455 935.0, 455 770 C 455 605.0, 815 685.0, 815 520 C 815 355.0, 470 435.0, 470 270 C 470 105.0, 820 185.0, 820 20 C 820 -145.0, 450 -65.0, 450 -230 C 450 -395.0, 790 -315.0, 790 -480 C 790 -645.0, 460 -565.0, 460 -730 C 460 -895.0, 800 -815.0, 800 -980 C 800 -1145.0, 440 -1065.0, 440 -1230 C 440 -1395.0, 785 -1315.0, 785 -1480 C 785 -1645.0, 455 -1565.0, 455 -1730 C 455 -1895.0, 815 -1815.0, 815 -1980 C 815 -2145.0, 470 -2065.0, 470 -2230 C 470 -2395.0, 820 -2315.0, 820 -2480 C 820 -2645.0, 450 -2565.0, 450 -2730 C 450 -2895.0, 790 -2815.0, 790 -2980 C 790 -3145.0, 460 -3065.0, 460 -3230 C 460 -3395.0, 800 -3315.0, 800 -3480 C 800 -3645.0, 440 -3565.0, 440 -3730 C 440 -3895.0, 785 -3815.0, 785 -3980 C 785 -4145.0, 455 -4065.0, 455 -4230 C 455 -4395.0, 815 -4315.0, 815 -4480 C 815 -4645.0, 470 -4565.0, 470 -4730 C 470 -4895.0, 820 -4815.0, 820 -4980 C 820 -5145.0, 450 -5065.0, 450 -5230 C 450 -5395.0, 790 -5315.0, 790 -5480 C 790 -5645.0, 460 -5565.0, 460 -5730 C 460 -5895.0, 800 -5815.0, 800 -5980 C 800 -6145.0, 440 -6065.0, 440 -6230 C 440 -6395.0, 785 -6315.0, 785 -6480 C 785 -6645.0, 455 -6565.0, 455 -6730 C 455 -6895.0, 815 -6815.0, 815 -6980 C 815 -7145.0, 470 -7065.0, 470 -7230 C 470 -7395.0, 820 -7315.0, 820 -7480" fill="none" stroke="#ffffff" stroke-opacity="0.98" stroke-width="27" stroke-linecap="round" stroke-linejoin="round"/>
+    <path class="trail" d="M 820 2520 C 820 2355.0, 450 2435.0, 450 2270 C 450 2105.0, 790 2185.0, 790 2020 C 790 1855.0, 460 1935.0, 460 1770 C 460 1605.0, 800 1685.0, 800 1520 C 800 1355.0, 440 1435.0, 440 1270 C 440 1105.0, 785 1185.0, 785 1020 C 785 855.0, 455 935.0, 455 770 C 455 605.0, 815 685.0, 815 520 C 815 355.0, 470 435.0, 470 270 C 470 105.0, 820 185.0, 820 20 C 820 -145.0, 450 -65.0, 450 -230 C 450 -395.0, 790 -315.0, 790 -480 C 790 -645.0, 460 -565.0, 460 -730 C 460 -895.0, 800 -815.0, 800 -980 C 800 -1145.0, 440 -1065.0, 440 -1230 C 440 -1395.0, 785 -1315.0, 785 -1480 C 785 -1645.0, 455 -1565.0, 455 -1730 C 455 -1895.0, 815 -1815.0, 815 -1980 C 815 -2145.0, 470 -2065.0, 470 -2230 C 470 -2395.0, 820 -2315.0, 820 -2480 C 820 -2645.0, 450 -2565.0, 450 -2730 C 450 -2895.0, 790 -2815.0, 790 -2980 C 790 -3145.0, 460 -3065.0, 460 -3230 C 460 -3395.0, 800 -3315.0, 800 -3480 C 800 -3645.0, 440 -3565.0, 440 -3730 C 440 -3895.0, 785 -3815.0, 785 -3980 C 785 -4145.0, 455 -4065.0, 455 -4230 C 455 -4395.0, 815 -4315.0, 815 -4480 C 815 -4645.0, 470 -4565.0, 470 -4730 C 470 -4895.0, 820 -4815.0, 820 -4980 C 820 -5145.0, 450 -5065.0, 450 -5230 C 450 -5395.0, 790 -5315.0, 790 -5480 C 790 -5645.0, 460 -5565.0, 460 -5730 C 460 -5895.0, 800 -5815.0, 800 -5980 C 800 -6145.0, 440 -6065.0, 440 -6230 C 440 -6395.0, 785 -6315.0, 785 -6480 C 785 -6645.0, 455 -6565.0, 455 -6730 C 455 -6895.0, 815 -6815.0, 815 -6980 C 815 -7145.0, 470 -7065.0, 470 -7230 C 470 -7395.0, 820 -7315.0, 820 -7480" fill="none" stroke="url(#routeCore)" stroke-opacity="0.88" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path class="trail" d="M 820 2520 C 820 2355.0, 450 2435.0, 450 2270 C 450 2105.0, 790 2185.0, 790 2020 C 790 1855.0, 460 1935.0, 460 1770 C 460 1605.0, 800 1685.0, 800 1520 C 800 1355.0, 440 1435.0, 440 1270 C 440 1105.0, 785 1185.0, 785 1020 C 785 855.0, 455 935.0, 455 770 C 455 605.0, 815 685.0, 815 520 C 815 355.0, 470 435.0, 470 270 C 470 105.0, 820 185.0, 820 20 C 820 -145.0, 450 -65.0, 450 -230 C 450 -395.0, 790 -315.0, 790 -480 C 790 -645.0, 460 -565.0, 460 -730 C 460 -895.0, 800 -815.0, 800 -980 C 800 -1145.0, 440 -1065.0, 440 -1230 C 440 -1395.0, 785 -1315.0, 785 -1480 C 785 -1645.0, 455 -1565.0, 455 -1730 C 455 -1895.0, 815 -1815.0, 815 -1980 C 815 -2145.0, 470 -2065.0, 470 -2230 C 470 -2395.0, 820 -2315.0, 820 -2480 C 820 -2645.0, 450 -2565.0, 450 -2730 C 450 -2895.0, 790 -2815.0, 790 -2980 C 790 -3145.0, 460 -3065.0, 460 -3230 C 460 -3395.0, 800 -3315.0, 800 -3480 C 800 -3645.0, 440 -3565.0, 440 -3730 C 440 -3895.0, 785 -3815.0, 785 -3980 C 785 -4145.0, 455 -4065.0, 455 -4230 C 455 -4395.0, 815 -4315.0, 815 -4480 C 815 -4645.0, 470 -4565.0, 470 -4730 C 470 -4895.0, 820 -4815.0, 820 -4980 C 820 -5145.0, 450 -5065.0, 450 -5230 C 450 -5395.0, 790 -5315.0, 790 -5480 C 790 -5645.0, 460 -5565.0, 460 -5730 C 460 -5895.0, 800 -5815.0, 800 -5980 C 800 -6145.0, 440 -6065.0, 440 -6230 C 440 -6395.0, 785 -6315.0, 785 -6480 C 785 -6645.0, 455 -6565.0, 455 -6730 C 455 -6895.0, 815 -6815.0, 815 -6980 C 815 -7145.0, 470 -7065.0, 470 -7230 C 470 -7395.0, 820 -7315.0, 820 -7480" fill="none" stroke="url(#routeHighlight)" stroke-opacity="0.68" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g class="travelArrow" filter="url(#arrowGlow)">
+      <circle r="20" fill="#b46a53" opacity="0.15"/>
+      <circle r="9" fill="#b46a53"/>
+      <path d="M -11 -8 L 14 0 L -11 8 Z" fill="#ffffff"/>
+      <animateMotion dur="20s" repeatCount="indefinite" rotate="auto" path="M 820 2520 C 820 2355.0, 450 2435.0, 450 2270 C 450 2105.0, 790 2185.0, 790 2020 C 790 1855.0, 460 1935.0, 460 1770 C 460 1605.0, 800 1685.0, 800 1520 C 800 1355.0, 440 1435.0, 440 1270 C 440 1105.0, 785 1185.0, 785 1020 C 785 855.0, 455 935.0, 455 770 C 455 605.0, 815 685.0, 815 520 C 815 355.0, 470 435.0, 470 270 C 470 105.0, 820 185.0, 820 20"/>
+    </g>
+
+    <g>
+      <path d="M 675 2520 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="820" cy="2520" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="675" y="2447" width="290" height="146" rx="24" fill="#D29B43" filter="url(#cardShadow)"/>
+      <rect x="685" y="2457" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="699" y="2478" class="cardNo">STEP 01</text>
+      <text x="820" y="2526" text-anchor="middle" class="emoji">📋</text>
+      <text x="699" y="2560" class="cardTitle">Specification Verification</text>
+      <g>
+        <circle cx="80" cy="2460" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="2465" text-anchor="middle" class="lineNo">01</text>
+        <text x="80" y="2499" class="sideTitle">Specification Verification</text>
+        <path d="M 80 2513 H 168" stroke="#D29B43" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="2539" class="body">Product drawings, specifications, grades and</text><text x="80" y="2556" class="body">buyer requirements are checked before</text><text x="80" y="2573" class="body">inspection begins.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 675 20 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="820" cy="20" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="675" y="-53" width="290" height="146" rx="24" fill="#D29B43" filter="url(#cardShadow)"/>
+      <rect x="685" y="-43" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="699" y="-22" class="cardNo">STEP 01</text>
+      <text x="820" y="26" text-anchor="middle" class="emoji">📋</text>
+      <text x="699" y="60" class="cardTitle">Specification Verification</text>
+      <g>
+        <circle cx="80" cy="-40" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="-35" text-anchor="middle" class="lineNo">01</text>
+        <text x="80" y="-1" class="sideTitle">Specification Verification</text>
+        <path d="M 80 13 H 168" stroke="#D29B43" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="39" class="body">Product drawings, specifications, grades and</text><text x="80" y="56" class="body">buyer requirements are checked before</text><text x="80" y="73" class="body">inspection begins.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 675 -2480 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="820" cy="-2480" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="675" y="-2553" width="290" height="146" rx="24" fill="#D29B43" filter="url(#cardShadow)"/>
+      <rect x="685" y="-2543" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="699" y="-2522" class="cardNo">STEP 01</text>
+      <text x="820" y="-2474" text-anchor="middle" class="emoji">📋</text>
+      <text x="699" y="-2440" class="cardTitle">Specification Verification</text>
+      <g>
+        <circle cx="80" cy="-2540" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="-2535" text-anchor="middle" class="lineNo">01</text>
+        <text x="80" y="-2501" class="sideTitle">Specification Verification</text>
+        <path d="M 80 -2487 H 168" stroke="#D29B43" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="-2461" class="body">Product drawings, specifications, grades and</text><text x="80" y="-2444" class="body">buyer requirements are checked before</text><text x="80" y="-2427" class="body">inspection begins.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 675 -4980 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="820" cy="-4980" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="675" y="-5053" width="290" height="146" rx="24" fill="#D29B43" filter="url(#cardShadow)"/>
+      <rect x="685" y="-5043" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="699" y="-5022" class="cardNo">STEP 01</text>
+      <text x="820" y="-4974" text-anchor="middle" class="emoji">📋</text>
+      <text x="699" y="-4940" class="cardTitle">Specification Verification</text>
+      <g>
+        <circle cx="80" cy="-5040" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="-5035" text-anchor="middle" class="lineNo">01</text>
+        <text x="80" y="-5001" class="sideTitle">Specification Verification</text>
+        <path d="M 80 -4987 H 168" stroke="#D29B43" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="-4961" class="body">Product drawings, specifications, grades and</text><text x="80" y="-4944" class="body">buyer requirements are checked before</text><text x="80" y="-4927" class="body">inspection begins.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 595 2270 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="450" cy="2270" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="305" y="2197" width="290" height="146" rx="24" fill="#C96C4D" filter="url(#cardShadow)"/>
+      <rect x="315" y="2207" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="329" y="2228" class="cardNo">STEP 02</text>
+      <text x="450" y="2276" text-anchor="middle" class="emoji">🔎</text>
+      <text x="329" y="2310" class="cardTitle">Material Inspection</text>
+      <g>
+        <circle cx="795" cy="2210" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="2215" text-anchor="middle" class="lineNo">02</text>
+        <text x="795" y="2249" class="sideTitle">Material Inspection</text>
+        <path d="M 795 2263 H 883" stroke="#C96C4D" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="2289" class="body">Materials, grades and certificates are checked</text><text x="795" y="2306" class="body">against the approved specification and</text><text x="795" y="2323" class="body">purchase requirements.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 595 -230 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="450" cy="-230" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="305" y="-303" width="290" height="146" rx="24" fill="#C96C4D" filter="url(#cardShadow)"/>
+      <rect x="315" y="-293" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="329" y="-272" class="cardNo">STEP 02</text>
+      <text x="450" y="-224" text-anchor="middle" class="emoji">🔎</text>
+      <text x="329" y="-190" class="cardTitle">Material Inspection</text>
+      <g>
+        <circle cx="795" cy="-290" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="-285" text-anchor="middle" class="lineNo">02</text>
+        <text x="795" y="-251" class="sideTitle">Material Inspection</text>
+        <path d="M 795 -237 H 883" stroke="#C96C4D" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="-211" class="body">Materials, grades and certificates are checked</text><text x="795" y="-194" class="body">against the approved specification and</text><text x="795" y="-177" class="body">purchase requirements.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 595 -2730 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="450" cy="-2730" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="305" y="-2803" width="290" height="146" rx="24" fill="#C96C4D" filter="url(#cardShadow)"/>
+      <rect x="315" y="-2793" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="329" y="-2772" class="cardNo">STEP 02</text>
+      <text x="450" y="-2724" text-anchor="middle" class="emoji">🔎</text>
+      <text x="329" y="-2690" class="cardTitle">Material Inspection</text>
+      <g>
+        <circle cx="795" cy="-2790" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="-2785" text-anchor="middle" class="lineNo">02</text>
+        <text x="795" y="-2751" class="sideTitle">Material Inspection</text>
+        <path d="M 795 -2737 H 883" stroke="#C96C4D" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="-2711" class="body">Materials, grades and certificates are checked</text><text x="795" y="-2694" class="body">against the approved specification and</text><text x="795" y="-2677" class="body">purchase requirements.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 595 -5230 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="450" cy="-5230" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="305" y="-5303" width="290" height="146" rx="24" fill="#C96C4D" filter="url(#cardShadow)"/>
+      <rect x="315" y="-5293" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="329" y="-5272" class="cardNo">STEP 02</text>
+      <text x="450" y="-5224" text-anchor="middle" class="emoji">🔎</text>
+      <text x="329" y="-5190" class="cardTitle">Material Inspection</text>
+      <g>
+        <circle cx="795" cy="-5290" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="-5285" text-anchor="middle" class="lineNo">02</text>
+        <text x="795" y="-5251" class="sideTitle">Material Inspection</text>
+        <path d="M 795 -5237 H 883" stroke="#C96C4D" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="-5211" class="body">Materials, grades and certificates are checked</text><text x="795" y="-5194" class="body">against the approved specification and</text><text x="795" y="-5177" class="body">purchase requirements.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 645 2020 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="790" cy="2020" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="645" y="1947" width="290" height="146" rx="24" fill="#4EA7AC" filter="url(#cardShadow)"/>
+      <rect x="655" y="1957" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="669" y="1978" class="cardNo">STEP 03</text>
+      <text x="790" y="2026" text-anchor="middle" class="emoji">📏</text>
+      <text x="669" y="2060" class="cardTitle">Dimensional Accuracy</text>
+      <g>
+        <circle cx="80" cy="1960" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="1965" text-anchor="middle" class="lineNo">03</text>
+        <text x="80" y="1999" class="sideTitle">Dimensional Accuracy</text>
+        <path d="M 80 2013 H 168" stroke="#4EA7AC" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="2039" class="body">Critical dimensions, tolerances and fitment</text><text x="80" y="2056" class="body">points are measured using suitable calibrated</text><text x="80" y="2073" class="body">tools.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 645 -480 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="790" cy="-480" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="645" y="-553" width="290" height="146" rx="24" fill="#4EA7AC" filter="url(#cardShadow)"/>
+      <rect x="655" y="-543" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="669" y="-522" class="cardNo">STEP 03</text>
+      <text x="790" y="-474" text-anchor="middle" class="emoji">📏</text>
+      <text x="669" y="-440" class="cardTitle">Dimensional Accuracy</text>
+      <g>
+        <circle cx="80" cy="-540" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="-535" text-anchor="middle" class="lineNo">03</text>
+        <text x="80" y="-501" class="sideTitle">Dimensional Accuracy</text>
+        <path d="M 80 -487 H 168" stroke="#4EA7AC" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="-461" class="body">Critical dimensions, tolerances and fitment</text><text x="80" y="-444" class="body">points are measured using suitable calibrated</text><text x="80" y="-427" class="body">tools.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 645 -2980 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="790" cy="-2980" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="645" y="-3053" width="290" height="146" rx="24" fill="#4EA7AC" filter="url(#cardShadow)"/>
+      <rect x="655" y="-3043" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="669" y="-3022" class="cardNo">STEP 03</text>
+      <text x="790" y="-2974" text-anchor="middle" class="emoji">📏</text>
+      <text x="669" y="-2940" class="cardTitle">Dimensional Accuracy</text>
+      <g>
+        <circle cx="80" cy="-3040" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="-3035" text-anchor="middle" class="lineNo">03</text>
+        <text x="80" y="-3001" class="sideTitle">Dimensional Accuracy</text>
+        <path d="M 80 -2987 H 168" stroke="#4EA7AC" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="-2961" class="body">Critical dimensions, tolerances and fitment</text><text x="80" y="-2944" class="body">points are measured using suitable calibrated</text><text x="80" y="-2927" class="body">tools.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 645 -5480 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="790" cy="-5480" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="645" y="-5553" width="290" height="146" rx="24" fill="#4EA7AC" filter="url(#cardShadow)"/>
+      <rect x="655" y="-5543" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="669" y="-5522" class="cardNo">STEP 03</text>
+      <text x="790" y="-5474" text-anchor="middle" class="emoji">📏</text>
+      <text x="669" y="-5440" class="cardTitle">Dimensional Accuracy</text>
+      <g>
+        <circle cx="80" cy="-5540" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="-5535" text-anchor="middle" class="lineNo">03</text>
+        <text x="80" y="-5501" class="sideTitle">Dimensional Accuracy</text>
+        <path d="M 80 -5487 H 168" stroke="#4EA7AC" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="-5461" class="body">Critical dimensions, tolerances and fitment</text><text x="80" y="-5444" class="body">points are measured using suitable calibrated</text><text x="80" y="-5427" class="body">tools.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 605 1770 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="460" cy="1770" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="315" y="1697" width="290" height="146" rx="24" fill="#786F92" filter="url(#cardShadow)"/>
+      <rect x="325" y="1707" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="339" y="1728" class="cardNo">STEP 04</text>
+      <text x="460" y="1776" text-anchor="middle" class="emoji">✨</text>
+      <text x="339" y="1810" class="cardTitle">Workmanship &amp; Finish</text>
+      <g>
+        <circle cx="795" cy="1710" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="1715" text-anchor="middle" class="lineNo">04</text>
+        <text x="795" y="1749" class="sideTitle">Workmanship &amp; Finish</text>
+        <path d="M 795 1763 H 883" stroke="#786F92" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="1789" class="body">Surface finish, welding, machining and visible</text><text x="795" y="1806" class="body">workmanship are examined for defects and</text><text x="795" y="1823" class="body">consistency.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 605 -730 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="460" cy="-730" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="315" y="-803" width="290" height="146" rx="24" fill="#786F92" filter="url(#cardShadow)"/>
+      <rect x="325" y="-793" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="339" y="-772" class="cardNo">STEP 04</text>
+      <text x="460" y="-724" text-anchor="middle" class="emoji">✨</text>
+      <text x="339" y="-690" class="cardTitle">Workmanship &amp; Finish</text>
+      <g>
+        <circle cx="795" cy="-790" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="-785" text-anchor="middle" class="lineNo">04</text>
+        <text x="795" y="-751" class="sideTitle">Workmanship &amp; Finish</text>
+        <path d="M 795 -737 H 883" stroke="#786F92" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="-711" class="body">Surface finish, welding, machining and visible</text><text x="795" y="-694" class="body">workmanship are examined for defects and</text><text x="795" y="-677" class="body">consistency.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 605 -3230 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="460" cy="-3230" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="315" y="-3303" width="290" height="146" rx="24" fill="#786F92" filter="url(#cardShadow)"/>
+      <rect x="325" y="-3293" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="339" y="-3272" class="cardNo">STEP 04</text>
+      <text x="460" y="-3224" text-anchor="middle" class="emoji">✨</text>
+      <text x="339" y="-3190" class="cardTitle">Workmanship &amp; Finish</text>
+      <g>
+        <circle cx="795" cy="-3290" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="-3285" text-anchor="middle" class="lineNo">04</text>
+        <text x="795" y="-3251" class="sideTitle">Workmanship &amp; Finish</text>
+        <path d="M 795 -3237 H 883" stroke="#786F92" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="-3211" class="body">Surface finish, welding, machining and visible</text><text x="795" y="-3194" class="body">workmanship are examined for defects and</text><text x="795" y="-3177" class="body">consistency.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 605 -5730 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="460" cy="-5730" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="315" y="-5803" width="290" height="146" rx="24" fill="#786F92" filter="url(#cardShadow)"/>
+      <rect x="325" y="-5793" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="339" y="-5772" class="cardNo">STEP 04</text>
+      <text x="460" y="-5724" text-anchor="middle" class="emoji">✨</text>
+      <text x="339" y="-5690" class="cardTitle">Workmanship &amp; Finish</text>
+      <g>
+        <circle cx="795" cy="-5790" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="-5785" text-anchor="middle" class="lineNo">04</text>
+        <text x="795" y="-5751" class="sideTitle">Workmanship &amp; Finish</text>
+        <path d="M 795 -5737 H 883" stroke="#786F92" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="-5711" class="body">Surface finish, welding, machining and visible</text><text x="795" y="-5694" class="body">workmanship are examined for defects and</text><text x="795" y="-5677" class="body">consistency.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 655 1520 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="800" cy="1520" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="655" y="1447" width="290" height="146" rx="24" fill="#8C9870" filter="url(#cardShadow)"/>
+      <rect x="665" y="1457" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="679" y="1478" class="cardNo">STEP 05</text>
+      <text x="800" y="1526" text-anchor="middle" class="emoji">⚙️</text>
+      <text x="679" y="1560" class="cardTitle">Functional Inspection</text>
+      <g>
+        <circle cx="80" cy="1460" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="1465" text-anchor="middle" class="lineNo">05</text>
+        <text x="80" y="1499" class="sideTitle">Functional Inspection</text>
+        <path d="M 80 1513 H 168" stroke="#8C9870" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="1539" class="body">Where applicable, assemblies and components</text><text x="80" y="1556" class="body">are tested for function, movement, fit and</text><text x="80" y="1573" class="body">basic performance.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 655 -980 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="800" cy="-980" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="655" y="-1053" width="290" height="146" rx="24" fill="#8C9870" filter="url(#cardShadow)"/>
+      <rect x="665" y="-1043" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="679" y="-1022" class="cardNo">STEP 05</text>
+      <text x="800" y="-974" text-anchor="middle" class="emoji">⚙️</text>
+      <text x="679" y="-940" class="cardTitle">Functional Inspection</text>
+      <g>
+        <circle cx="80" cy="-1040" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="-1035" text-anchor="middle" class="lineNo">05</text>
+        <text x="80" y="-1001" class="sideTitle">Functional Inspection</text>
+        <path d="M 80 -987 H 168" stroke="#8C9870" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="-961" class="body">Where applicable, assemblies and components</text><text x="80" y="-944" class="body">are tested for function, movement, fit and</text><text x="80" y="-927" class="body">basic performance.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 655 -3480 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="800" cy="-3480" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="655" y="-3553" width="290" height="146" rx="24" fill="#8C9870" filter="url(#cardShadow)"/>
+      <rect x="665" y="-3543" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="679" y="-3522" class="cardNo">STEP 05</text>
+      <text x="800" y="-3474" text-anchor="middle" class="emoji">⚙️</text>
+      <text x="679" y="-3440" class="cardTitle">Functional Inspection</text>
+      <g>
+        <circle cx="80" cy="-3540" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="-3535" text-anchor="middle" class="lineNo">05</text>
+        <text x="80" y="-3501" class="sideTitle">Functional Inspection</text>
+        <path d="M 80 -3487 H 168" stroke="#8C9870" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="-3461" class="body">Where applicable, assemblies and components</text><text x="80" y="-3444" class="body">are tested for function, movement, fit and</text><text x="80" y="-3427" class="body">basic performance.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 655 -5980 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="800" cy="-5980" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="655" y="-6053" width="290" height="146" rx="24" fill="#8C9870" filter="url(#cardShadow)"/>
+      <rect x="665" y="-6043" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="679" y="-6022" class="cardNo">STEP 05</text>
+      <text x="800" y="-5974" text-anchor="middle" class="emoji">⚙️</text>
+      <text x="679" y="-5940" class="cardTitle">Functional Inspection</text>
+      <g>
+        <circle cx="80" cy="-6040" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="-6035" text-anchor="middle" class="lineNo">05</text>
+        <text x="80" y="-6001" class="sideTitle">Functional Inspection</text>
+        <path d="M 80 -5987 H 168" stroke="#8C9870" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="-5961" class="body">Where applicable, assemblies and components</text><text x="80" y="-5944" class="body">are tested for function, movement, fit and</text><text x="80" y="-5927" class="body">basic performance.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 585 1270 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="440" cy="1270" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="295" y="1197" width="290" height="146" rx="24" fill="#C08A58" filter="url(#cardShadow)"/>
+      <rect x="305" y="1207" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="319" y="1228" class="cardNo">STEP 06</text>
+      <text x="440" y="1276" text-anchor="middle" class="emoji">🔢</text>
+      <text x="319" y="1310" class="cardTitle">Quantity Verification</text>
+      <g>
+        <circle cx="795" cy="1210" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="1215" text-anchor="middle" class="lineNo">06</text>
+        <text x="795" y="1249" class="sideTitle">Quantity Verification</text>
+        <path d="M 795 1263 H 883" stroke="#C08A58" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="1289" class="body">Packed and loose quantities are counted and</text><text x="795" y="1306" class="body">reconciled against the order, packing list and</text><text x="795" y="1323" class="body">approved quantity.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 585 -1230 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="440" cy="-1230" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="295" y="-1303" width="290" height="146" rx="24" fill="#C08A58" filter="url(#cardShadow)"/>
+      <rect x="305" y="-1293" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="319" y="-1272" class="cardNo">STEP 06</text>
+      <text x="440" y="-1224" text-anchor="middle" class="emoji">🔢</text>
+      <text x="319" y="-1190" class="cardTitle">Quantity Verification</text>
+      <g>
+        <circle cx="795" cy="-1290" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="-1285" text-anchor="middle" class="lineNo">06</text>
+        <text x="795" y="-1251" class="sideTitle">Quantity Verification</text>
+        <path d="M 795 -1237 H 883" stroke="#C08A58" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="-1211" class="body">Packed and loose quantities are counted and</text><text x="795" y="-1194" class="body">reconciled against the order, packing list and</text><text x="795" y="-1177" class="body">approved quantity.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 585 -3730 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="440" cy="-3730" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="295" y="-3803" width="290" height="146" rx="24" fill="#C08A58" filter="url(#cardShadow)"/>
+      <rect x="305" y="-3793" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="319" y="-3772" class="cardNo">STEP 06</text>
+      <text x="440" y="-3724" text-anchor="middle" class="emoji">🔢</text>
+      <text x="319" y="-3690" class="cardTitle">Quantity Verification</text>
+      <g>
+        <circle cx="795" cy="-3790" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="-3785" text-anchor="middle" class="lineNo">06</text>
+        <text x="795" y="-3751" class="sideTitle">Quantity Verification</text>
+        <path d="M 795 -3737 H 883" stroke="#C08A58" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="-3711" class="body">Packed and loose quantities are counted and</text><text x="795" y="-3694" class="body">reconciled against the order, packing list and</text><text x="795" y="-3677" class="body">approved quantity.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 585 -6230 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="440" cy="-6230" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="295" y="-6303" width="290" height="146" rx="24" fill="#C08A58" filter="url(#cardShadow)"/>
+      <rect x="305" y="-6293" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="319" y="-6272" class="cardNo">STEP 06</text>
+      <text x="440" y="-6224" text-anchor="middle" class="emoji">🔢</text>
+      <text x="319" y="-6190" class="cardTitle">Quantity Verification</text>
+      <g>
+        <circle cx="795" cy="-6290" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="-6285" text-anchor="middle" class="lineNo">06</text>
+        <text x="795" y="-6251" class="sideTitle">Quantity Verification</text>
+        <path d="M 795 -6237 H 883" stroke="#C08A58" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="-6211" class="body">Packed and loose quantities are counted and</text><text x="795" y="-6194" class="body">reconciled against the order, packing list and</text><text x="795" y="-6177" class="body">approved quantity.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 640 1020 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="785" cy="1020" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="640" y="947" width="290" height="146" rx="24" fill="#897C72" filter="url(#cardShadow)"/>
+      <rect x="650" y="957" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="664" y="978" class="cardNo">STEP 07</text>
+      <text x="785" y="1026" text-anchor="middle" class="emoji">📦</text>
+      <text x="664" y="1060" class="cardTitle">Packaging Inspection</text>
+      <g>
+        <circle cx="80" cy="960" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="965" text-anchor="middle" class="lineNo">07</text>
+        <text x="80" y="999" class="sideTitle">Packaging Inspection</text>
+        <path d="M 80 1013 H 168" stroke="#897C72" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="1039" class="body">Packaging is checked for protection,</text><text x="80" y="1056" class="body">suitability, sealing, handling marks and</text><text x="80" y="1073" class="body">export-readiness.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 640 -1480 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="785" cy="-1480" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="640" y="-1553" width="290" height="146" rx="24" fill="#897C72" filter="url(#cardShadow)"/>
+      <rect x="650" y="-1543" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="664" y="-1522" class="cardNo">STEP 07</text>
+      <text x="785" y="-1474" text-anchor="middle" class="emoji">📦</text>
+      <text x="664" y="-1440" class="cardTitle">Packaging Inspection</text>
+      <g>
+        <circle cx="80" cy="-1540" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="-1535" text-anchor="middle" class="lineNo">07</text>
+        <text x="80" y="-1501" class="sideTitle">Packaging Inspection</text>
+        <path d="M 80 -1487 H 168" stroke="#897C72" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="-1461" class="body">Packaging is checked for protection,</text><text x="80" y="-1444" class="body">suitability, sealing, handling marks and</text><text x="80" y="-1427" class="body">export-readiness.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 640 -3980 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="785" cy="-3980" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="640" y="-4053" width="290" height="146" rx="24" fill="#897C72" filter="url(#cardShadow)"/>
+      <rect x="650" y="-4043" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="664" y="-4022" class="cardNo">STEP 07</text>
+      <text x="785" y="-3974" text-anchor="middle" class="emoji">📦</text>
+      <text x="664" y="-3940" class="cardTitle">Packaging Inspection</text>
+      <g>
+        <circle cx="80" cy="-4040" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="-4035" text-anchor="middle" class="lineNo">07</text>
+        <text x="80" y="-4001" class="sideTitle">Packaging Inspection</text>
+        <path d="M 80 -3987 H 168" stroke="#897C72" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="-3961" class="body">Packaging is checked for protection,</text><text x="80" y="-3944" class="body">suitability, sealing, handling marks and</text><text x="80" y="-3927" class="body">export-readiness.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 640 -6480 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="785" cy="-6480" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="640" y="-6553" width="290" height="146" rx="24" fill="#897C72" filter="url(#cardShadow)"/>
+      <rect x="650" y="-6543" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="664" y="-6522" class="cardNo">STEP 07</text>
+      <text x="785" y="-6474" text-anchor="middle" class="emoji">📦</text>
+      <text x="664" y="-6440" class="cardTitle">Packaging Inspection</text>
+      <g>
+        <circle cx="80" cy="-6540" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="-6535" text-anchor="middle" class="lineNo">07</text>
+        <text x="80" y="-6501" class="sideTitle">Packaging Inspection</text>
+        <path d="M 80 -6487 H 168" stroke="#897C72" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="-6461" class="body">Packaging is checked for protection,</text><text x="80" y="-6444" class="body">suitability, sealing, handling marks and</text><text x="80" y="-6427" class="body">export-readiness.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 600 770 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="455" cy="770" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="310" y="697" width="290" height="146" rx="24" fill="#63838C" filter="url(#cardShadow)"/>
+      <rect x="320" y="707" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="334" y="728" class="cardNo">STEP 08</text>
+      <text x="455" y="776" text-anchor="middle" class="emoji">🚚</text>
+      <text x="334" y="810" class="cardTitle">Cargo Condition Check</text>
+      <g>
+        <circle cx="795" cy="710" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="715" text-anchor="middle" class="lineNo">08</text>
+        <text x="795" y="749" class="sideTitle">Cargo Condition Check</text>
+        <path d="M 795 763 H 883" stroke="#63838C" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="789" class="body">Before dispatch, cargo is checked for damage,</text><text x="795" y="806" class="body">moisture, deformation or other visible</text><text x="795" y="823" class="body">handling issues.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 600 -1730 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="455" cy="-1730" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="310" y="-1803" width="290" height="146" rx="24" fill="#63838C" filter="url(#cardShadow)"/>
+      <rect x="320" y="-1793" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="334" y="-1772" class="cardNo">STEP 08</text>
+      <text x="455" y="-1724" text-anchor="middle" class="emoji">🚚</text>
+      <text x="334" y="-1690" class="cardTitle">Cargo Condition Check</text>
+      <g>
+        <circle cx="795" cy="-1790" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="-1785" text-anchor="middle" class="lineNo">08</text>
+        <text x="795" y="-1751" class="sideTitle">Cargo Condition Check</text>
+        <path d="M 795 -1737 H 883" stroke="#63838C" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="-1711" class="body">Before dispatch, cargo is checked for damage,</text><text x="795" y="-1694" class="body">moisture, deformation or other visible</text><text x="795" y="-1677" class="body">handling issues.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 600 -4230 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="455" cy="-4230" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="310" y="-4303" width="290" height="146" rx="24" fill="#63838C" filter="url(#cardShadow)"/>
+      <rect x="320" y="-4293" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="334" y="-4272" class="cardNo">STEP 08</text>
+      <text x="455" y="-4224" text-anchor="middle" class="emoji">🚚</text>
+      <text x="334" y="-4190" class="cardTitle">Cargo Condition Check</text>
+      <g>
+        <circle cx="795" cy="-4290" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="-4285" text-anchor="middle" class="lineNo">08</text>
+        <text x="795" y="-4251" class="sideTitle">Cargo Condition Check</text>
+        <path d="M 795 -4237 H 883" stroke="#63838C" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="-4211" class="body">Before dispatch, cargo is checked for damage,</text><text x="795" y="-4194" class="body">moisture, deformation or other visible</text><text x="795" y="-4177" class="body">handling issues.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 600 -6730 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="455" cy="-6730" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="310" y="-6803" width="290" height="146" rx="24" fill="#63838C" filter="url(#cardShadow)"/>
+      <rect x="320" y="-6793" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="334" y="-6772" class="cardNo">STEP 08</text>
+      <text x="455" y="-6724" text-anchor="middle" class="emoji">🚚</text>
+      <text x="334" y="-6690" class="cardTitle">Cargo Condition Check</text>
+      <g>
+        <circle cx="795" cy="-6790" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="-6785" text-anchor="middle" class="lineNo">08</text>
+        <text x="795" y="-6751" class="sideTitle">Cargo Condition Check</text>
+        <path d="M 795 -6737 H 883" stroke="#63838C" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="-6711" class="body">Before dispatch, cargo is checked for damage,</text><text x="795" y="-6694" class="body">moisture, deformation or other visible</text><text x="795" y="-6677" class="body">handling issues.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 670 520 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="815" cy="520" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="670" y="447" width="290" height="146" rx="24" fill="#B56860" filter="url(#cardShadow)"/>
+      <rect x="680" y="457" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="694" y="478" class="cardNo">STEP 09</text>
+      <text x="815" y="526" text-anchor="middle" class="emoji">🏷️</text>
+      <text x="694" y="560" class="cardTitle">Labelling &amp; Marking</text>
+      <g>
+        <circle cx="80" cy="460" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="465" text-anchor="middle" class="lineNo">09</text>
+        <text x="80" y="499" class="sideTitle">Labelling &amp; Marking</text>
+        <path d="M 80 513 H 168" stroke="#B56860" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="539" class="body">Product, carton and shipment markings are</text><text x="80" y="556" class="body">checked for correctness, readability and buyer</text><text x="80" y="573" class="body">requirements.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 670 -1980 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="815" cy="-1980" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="670" y="-2053" width="290" height="146" rx="24" fill="#B56860" filter="url(#cardShadow)"/>
+      <rect x="680" y="-2043" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="694" y="-2022" class="cardNo">STEP 09</text>
+      <text x="815" y="-1974" text-anchor="middle" class="emoji">🏷️</text>
+      <text x="694" y="-1940" class="cardTitle">Labelling &amp; Marking</text>
+      <g>
+        <circle cx="80" cy="-2040" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="-2035" text-anchor="middle" class="lineNo">09</text>
+        <text x="80" y="-2001" class="sideTitle">Labelling &amp; Marking</text>
+        <path d="M 80 -1987 H 168" stroke="#B56860" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="-1961" class="body">Product, carton and shipment markings are</text><text x="80" y="-1944" class="body">checked for correctness, readability and buyer</text><text x="80" y="-1927" class="body">requirements.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 670 -4480 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="815" cy="-4480" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="670" y="-4553" width="290" height="146" rx="24" fill="#B56860" filter="url(#cardShadow)"/>
+      <rect x="680" y="-4543" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="694" y="-4522" class="cardNo">STEP 09</text>
+      <text x="815" y="-4474" text-anchor="middle" class="emoji">🏷️</text>
+      <text x="694" y="-4440" class="cardTitle">Labelling &amp; Marking</text>
+      <g>
+        <circle cx="80" cy="-4540" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="-4535" text-anchor="middle" class="lineNo">09</text>
+        <text x="80" y="-4501" class="sideTitle">Labelling &amp; Marking</text>
+        <path d="M 80 -4487 H 168" stroke="#B56860" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="-4461" class="body">Product, carton and shipment markings are</text><text x="80" y="-4444" class="body">checked for correctness, readability and buyer</text><text x="80" y="-4427" class="body">requirements.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 670 -6980 H 268" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="815" cy="-6980" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="670" y="-7053" width="290" height="146" rx="24" fill="#B56860" filter="url(#cardShadow)"/>
+      <rect x="680" y="-7043" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="694" y="-7022" class="cardNo">STEP 09</text>
+      <text x="815" y="-6974" text-anchor="middle" class="emoji">🏷️</text>
+      <text x="694" y="-6940" class="cardTitle">Labelling &amp; Marking</text>
+      <g>
+        <circle cx="80" cy="-7040" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="80" y="-7035" text-anchor="middle" class="lineNo">09</text>
+        <text x="80" y="-7001" class="sideTitle">Labelling &amp; Marking</text>
+        <path d="M 80 -6987 H 168" stroke="#B56860" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="80" y="-6961" class="body">Product, carton and shipment markings are</text><text x="80" y="-6944" class="body">checked for correctness, readability and buyer</text><text x="80" y="-6927" class="body">requirements.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 615 270 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="470" cy="270" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="325" y="197" width="290" height="146" rx="24" fill="#68756D" filter="url(#cardShadow)"/>
+      <rect x="335" y="207" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="349" y="228" class="cardNo">STEP 10</text>
+      <text x="470" y="276" text-anchor="middle" class="emoji">✅</text>
+      <text x="349" y="310" class="cardTitle">Pre-Dispatch Inspection</text>
+      <g>
+        <circle cx="795" cy="210" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="215" text-anchor="middle" class="lineNo">10</text>
+        <text x="795" y="249" class="sideTitle">Pre-Dispatch Inspection</text>
+        <path d="M 795 263 H 883" stroke="#68756D" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="289" class="body">Final inspection confirms the shipment meets</text><text x="795" y="306" class="body">agreed quality requirements before it leaves</text><text x="795" y="323" class="body">the supplier.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 615 -2230 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="470" cy="-2230" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="325" y="-2303" width="290" height="146" rx="24" fill="#68756D" filter="url(#cardShadow)"/>
+      <rect x="335" y="-2293" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="349" y="-2272" class="cardNo">STEP 10</text>
+      <text x="470" y="-2224" text-anchor="middle" class="emoji">✅</text>
+      <text x="349" y="-2190" class="cardTitle">Pre-Dispatch Inspection</text>
+      <g>
+        <circle cx="795" cy="-2290" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="-2285" text-anchor="middle" class="lineNo">10</text>
+        <text x="795" y="-2251" class="sideTitle">Pre-Dispatch Inspection</text>
+        <path d="M 795 -2237 H 883" stroke="#68756D" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="-2211" class="body">Final inspection confirms the shipment meets</text><text x="795" y="-2194" class="body">agreed quality requirements before it leaves</text><text x="795" y="-2177" class="body">the supplier.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 615 -4730 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="470" cy="-4730" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="325" y="-4803" width="290" height="146" rx="24" fill="#68756D" filter="url(#cardShadow)"/>
+      <rect x="335" y="-4793" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="349" y="-4772" class="cardNo">STEP 10</text>
+      <text x="470" y="-4724" text-anchor="middle" class="emoji">✅</text>
+      <text x="349" y="-4690" class="cardTitle">Pre-Dispatch Inspection</text>
+      <g>
+        <circle cx="795" cy="-4790" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="-4785" text-anchor="middle" class="lineNo">10</text>
+        <text x="795" y="-4751" class="sideTitle">Pre-Dispatch Inspection</text>
+        <path d="M 795 -4737 H 883" stroke="#68756D" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="-4711" class="body">Final inspection confirms the shipment meets</text><text x="795" y="-4694" class="body">agreed quality requirements before it leaves</text><text x="795" y="-4677" class="body">the supplier.</text>
+      </g>
+    </g>
+
+    <g>
+      <path d="M 615 -7230 H 773" stroke="#b9b5ad" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.82"/>
+      <circle cx="470" cy="-7230" r="25" fill="#f8f6f0" stroke="#d4d0c8" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="325" y="-7303" width="290" height="146" rx="24" fill="#68756D" filter="url(#cardShadow)"/>
+      <rect x="335" y="-7293" width="270" height="126" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="349" y="-7272" class="cardNo">STEP 10</text>
+      <text x="470" y="-7224" text-anchor="middle" class="emoji">✅</text>
+      <text x="349" y="-7190" class="cardTitle">Pre-Dispatch Inspection</text>
+      <g>
+        <circle cx="795" cy="-7290" r="20" fill="#f5f1ea" stroke="#d7d1c8" stroke-width="1.5"/>
+        <text x="795" y="-7285" text-anchor="middle" class="lineNo">10</text>
+        <text x="795" y="-7251" class="sideTitle">Pre-Dispatch Inspection</text>
+        <path d="M 795 -7237 H 883" stroke="#68756D" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+        <text x="795" y="-7211" class="body">Final inspection confirms the shipment meets</text><text x="795" y="-7194" class="body">agreed quality requirements before it leaves</text><text x="795" y="-7177" class="body">the supplier.</text>
+      </g>
+    </g>
+
+  </g>
+</g>
+
+<rect x="36" y="98" width="1128" height="760" rx="42" fill="none" stroke="#d7d8d3" stroke-width="1.5"/>
+<g transform="translate(72 832)">
+  <circle cx="0" cy="0" r="5" fill="#b46a53"/>
+  <text x="16" y="4" class="meta">SPECIFICATION → INSPECTION → DISPATCH</text>
+</g>
+</svg>
